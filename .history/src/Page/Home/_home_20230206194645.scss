@@ -1,0 +1,12 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+@media screen and (min-width: 620px) {
+  .flexy {
+    display: flex;
+  }
+}
+
+body {
+  background: $purple;
+}

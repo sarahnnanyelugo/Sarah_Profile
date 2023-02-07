@@ -1,0 +1,32 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+@media screen and (min-width: 620px) {
+  .flexy {
+    display: flex;
+  }
+}
+
+body {
+  background: $purple !important;
+}
+
+.intro-container {
+  margin-top: 30%;
+
+  padding: 20px;
+  .intro-btn {
+    background: $lightpurple;
+    color: $seagreen;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 30px;
+    font-size: 30px;
+  }
+  h1 {
+    color: $light;
+    span {
+      color: $seagreen !important;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.btn {
+  background: transparent;
+  padding: 0;
+  color: $seagreen;
+}
+.offcanvas {
+  background: $purple !important;
+  min-width: 100% !important;
+  color: $light !important;
+  opacity: 0.5;
+}
+.offcanvas-body {
+  border-right: solid 10px $seagreen;
+}

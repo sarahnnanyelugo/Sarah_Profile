@@ -1,0 +1,12 @@
+@font-face {
+    font-family: cyborg;
+    src: url(./assets/fonts/cyborg.ttf);
+}
+@font-face {
+    font-family: exospace;
+    src: url(./assets/fonts/exospace.ttf);
+}
+* {
+  margin: 0;
+  cursor: none;
+}
