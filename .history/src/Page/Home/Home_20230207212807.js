@@ -196,7 +196,7 @@ export const Home = ({ active, children }) => {
           </ul>
           <div className="vr"></div>
         </div>
-        <span style={{ height: "50px" }} id="contact"></span>
+        {/* <span style={{ height: "50px" }} id="contact"></span> */}
 
         <div className="col-md-6 offset-md-3">
           <div style={{ display: "flex" }}>

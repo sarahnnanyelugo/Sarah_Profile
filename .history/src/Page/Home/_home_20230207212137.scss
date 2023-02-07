@@ -309,20 +309,18 @@ h2 {
   color: $light;
   font-family: exospace;
 }
-
 .socials {
-  .socials {
-    color: $light;
-    font-size: 20px;
-    text-decoration: none;
-    margin-left: 10px;
-    margin-top: 10px !important;
-
-    &:hover {
-      color: $seagreen;
-      transition: 0.5s ease;
-    }
+  color: $light;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-top: 10px !important;
+  &:hover {
+    color: $seagreen;
+    transition: 0.5s ease;
   }
+}
+.socials {
   ul li {
     margin-top: 20px;
   }
@@ -336,8 +334,7 @@ h2 {
     left: 24%;
   }
   .vr {
-    border-left: solid 2px $light;
-    height: 120px;
-    margin-left: 15px;
+    border-left: solid 1px $light;
+    height: 100px;
   }
 }

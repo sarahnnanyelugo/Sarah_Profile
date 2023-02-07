@@ -3,7 +3,7 @@
 
 .navbar-container {
   //   height: 50px;
-  padding: 0px 0px 0px 50px;
+  padding: 5px 0px 5px 50px;
   background: $lightpurple;
   margin-bottom: 50px;
   color: $seagreen;
@@ -15,7 +15,7 @@
     color: $light !important;
     text-decoration: none;
     &:hover {
-      color: $seagreen !important;
+      color: $seagreen;
       transition: 0.5s ease;
     }
     span {

@@ -8,7 +8,6 @@ import React, { useState } from "react";
 import { Profile } from "./Avatar";
 import Dp from "../../assets/dp1.png";
 import { ExpTab } from "./ExpTab/ExpTab";
-import Icofont from "react-icofont";
 
 const AnimationsForChaining = ["slideInFromRight"];
 
@@ -166,38 +165,7 @@ export const Home = ({ active, children }) => {
         </div>
       </div>
       <div className="col-md-12 about-me">
-        <div className="socials">
-          <ul className="list-unstyled">
-            <li>
-              <a href="#" className="socials" target="_blank">
-                <i class="icofont-github"></i>
-              </a>
-            </li>{" "}
-            <li>
-              <a href="#" className="socials" target="_blank">
-                <i class="icofont-facebook"></i>
-              </a>
-            </li>{" "}
-            <li>
-              <a href="#" className="socials" target="_blank">
-                <i class="icofont-instagram"></i>
-              </a>
-            </li>{" "}
-            <li>
-              <a href="#" className="socials" target="_blank">
-                <i class="icofont-linkedin"></i>
-              </a>
-            </li>{" "}
-            <li>
-              <a href="#" className="socials" target="_blank">
-                <i class="icofont-caret-up"></i>{" "}
-              </a>
-            </li>
-          </ul>
-          <div className="vr"></div>
-        </div>
         <span style={{ height: "50px" }} id="contact"></span>
-
         <div className="col-md-6 offset-md-3">
           <div style={{ display: "flex" }}>
             <h4>
@@ -218,6 +186,28 @@ export const Home = ({ active, children }) => {
             <button>Say Hello</button>
           </center>
         </div>
+        <ul className="list-unstyled">
+          <li>
+            <a href="#" className="socials" target="_blank">
+              <i class="icofont-github"></i>
+            </a>
+          </li>{" "}
+          <li>
+            <a href="#" className="socials" target="_blank">
+              <i class="icofont-github"></i>
+            </a>
+          </li>{" "}
+          <li>
+            <a href="#" className="socials" target="_blank">
+              <i class="icofont-github"></i>
+            </a>
+          </li>{" "}
+          <li>
+            <a href="#" className="socials" target="_blank">
+              <i class="icofont-github"></i>
+            </a>
+          </li>
+        </ul>
       </div>
       <AppModal />
     </>
