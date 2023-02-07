@@ -1,0 +1,6 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.nav-pills .nav-link.active {
+  color: $seagreen;
+}

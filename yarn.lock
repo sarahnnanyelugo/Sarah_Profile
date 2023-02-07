@@ -10614,6 +10614,11 @@
   "resolved" "https://registry.npmjs.org/react-loading/-/react-loading-2.0.3.tgz"
   "version" "2.0.3"
 
+"react-moving-text@^0.0.7":
+  "integrity" "sha512-WA72if8QS2/QVOmZ2mDnWu1UFkMqt7Y1TFLfKT3MDRwPbcpz2F7WAyGi349anuKth0bQKg0CQddlQLQQiII8zQ=="
+  "resolved" "https://registry.npmjs.org/react-moving-text/-/react-moving-text-0.0.7.tgz"
+  "version" "0.0.7"
+
 "react-native-codegen@^0.71.3":
   "integrity" "sha512-5AvdHVU1sAaXg05i0dG664ZTaCaIFaY1znV5vNsj+wUu6MGxNEUNbDKk9dxKUkkxOyk2KZOK5uhzWL0p5H5yZQ=="
   "resolved" "https://registry.npmjs.org/react-native-codegen/-/react-native-codegen-0.71.3.tgz"
@@ -12089,7 +12094,7 @@
   "resolved" "https://registry.npmjs.org/style-loader/-/style-loader-3.3.1.tgz"
   "version" "3.3.1"
 
-"styled-components@^5.3.3", "styled-components@^5.3.6", "styled-components@>= 2":
+"styled-components@^5.3.3", "styled-components@^5.3.6", "styled-components@>= 2", "styled-components@>= 4":
   "integrity" "sha512-hGTZquGAaTqhGWldX7hhfzjnIYBZ0IXQXkCYdvF1Sq3DsUaLx6+NTHC5Jj1ooM2F68sBiVz3lvhfwQs/S3l6qg=="
   "resolved" "https://registry.npmjs.org/styled-components/-/styled-components-5.3.6.tgz"
   "version" "5.3.6"

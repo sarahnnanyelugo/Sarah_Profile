@@ -1,0 +1,10 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.navbar-container {
+  //   height: 50px;
+  padding: 5px 0px 5px 50px;
+  background: $lightpurple;
+  margin-bottom: 50px;
+  color: $seagreen;
+}

@@ -1,0 +1,17 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.nav-pills .nav-link.active {
+  background: $lightpurple !important;
+  color: $seagreen !important;
+  border-left: solid 3px $seagreen !important;
+  border-radius: 0 !important;
+  transition: 1s ease !important;
+  font-family: exospace;
+}
+.nav-link {
+  color: $light !important;
+}
+.nav-link active {
+  color: $seagreen !important;
+}
