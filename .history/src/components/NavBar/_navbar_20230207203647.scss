@@ -3,7 +3,7 @@
 
 .navbar-container {
   //   height: 50px;
-  padding: 5px 0px 5px 50px;
+  padding: 0px 0px 0px 50px;
   background: $lightpurple;
   margin-bottom: 50px;
   color: $seagreen;
@@ -13,18 +13,11 @@
   }
   ol li a {
     color: $light !important;
-    text-decoration: none;
-    span {
-      color: $seagreen;
-      margin-right: 10px;
-    }
   }
   ol li {
     padding: 0 !important;
     margin: 0 !important;
-    margin-top: -30px !important;
     margin-right: 30px !important;
-    font-family: exospace;
   }
   button {
     padding: 3px 10px !important;

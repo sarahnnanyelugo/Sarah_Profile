@@ -8,16 +8,16 @@ export const Navbar = () => {
       <div className="navbar-container flexy">
         <img className="col-md-1 col-12 logo" src={Logo} alt="Scholar" />
 
-        <div className="col-md-7">&nbsp;</div>
-        <div className="col-md-4">
-          <ol className="list-unstyled list-inline">
+        <div className="col-md-3">&nbsp;</div>
+        <div className="col-md-8">
+          <ul className="list-unstyled list-inline">
             <li className="list-inline-item">
-              <a href="#about">
+              <a href="#">
                 <span>01.</span>About
               </a>
             </li>{" "}
             <li className="list-inline-item">
-              <a href="#experience">
+              <a href="#">
                 <span>02.</span>Experience
               </a>
             </li>
@@ -25,14 +25,14 @@ export const Navbar = () => {
               <Menu />
             </li>
             <li className="list-inline-item">
-              <a href="#contact">
+              <a href="#">
                 <span>03.</span>Contact
               </a>
             </li>
             <li className="list-inline-item">
               <button>Resume</button>
             </li>{" "}
-          </ol>
+          </ul>
         </div>
       </div>
     </>

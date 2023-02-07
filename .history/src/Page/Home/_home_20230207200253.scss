@@ -245,24 +245,6 @@ body {
     color: $light;
     margin-left: 10px;
   }
-  ul li::before {
-    content: "▹";
-    position: absolute;
-    left: 0px;
-    color: $seagreen;
-    font-size: 12px;
-    line-height: 12px;
-    left: 24%;
-  }
-  ol li:after {
-    content: "▹";
-    position: absolute;
-    left: 0px;
-    color: $seagreen;
-    font-size: 12px;
-    line-height: 12px;
-    left: 37%;
-  }
 }
 .link-alteration {
   color: $seagreen;
@@ -284,6 +266,24 @@ ol li {
   color: $light;
   font-size: 13px;
 }
+ul li::before {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: $seagreen;
+  font-size: 12px;
+  line-height: 12px;
+  left: 24%;
+}
+ol li:after {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: $seagreen;
+  font-size: 12px;
+  line-height: 12px;
+  left: 37%;
+}
 
 .expe-container {
   border-left: solid 1px $light;
@@ -298,14 +298,8 @@ button {
   border: solid 2px $seagreen;
   padding: 12px 30px;
   border-radius: 5px !important;
-  font-family: exospace !important;
-  margin-top: 40px !important;
   &:hover {
-    background: rgba(81, 180, 163, 0.3);
+    background: rgba(81, 180, 163, 0.5);
     transition: 0.5s ease;
   }
-}
-h2 {
-  color: $light;
-  font-family: exospace;
 }

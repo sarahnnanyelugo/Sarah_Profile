@@ -170,7 +170,7 @@ export const Home = ({ active, children }) => {
             <a></a>
           </li>
         </ul>
-        <span style={{ height: "50px" }} id="contact"></span>
+        <span style={{ height: "20px" }} id="contact"></span>
         <div className="col-md-6 offset-md-3">
           <div style={{ display: "flex" }}>
             <h4>

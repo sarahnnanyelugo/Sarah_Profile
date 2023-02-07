@@ -72,7 +72,6 @@ export const Home = ({ active, children }) => {
           <Profile />
         </div>
       </div>
-      <span style={{ height: "20px" }} id="about"></span>
       <div className="col-md-12 about-me">
         <div className="col-md-6 offset-md-3 flexy">
           <div className="col-md-8">
@@ -145,7 +144,6 @@ export const Home = ({ active, children }) => {
           </ol>
         </div>
       </div>
-      <span style={{ height: "20px" }} id="experience"></span>
       <div className="col-md-12 about-me">
         <div className="col-md-6 offset-md-3">
           <div style={{ display: "flex" }}>
@@ -165,12 +163,6 @@ export const Home = ({ active, children }) => {
         </div>
       </div>
       <div className="col-md-12 about-me">
-        <ul>
-          <li>
-            <a></a>
-          </li>
-        </ul>
-        <span style={{ height: "50px" }} id="contact"></span>
         <div className="col-md-6 offset-md-3">
           <div style={{ display: "flex" }}>
             <h4>
@@ -188,7 +180,6 @@ export const Home = ({ active, children }) => {
               inbox is always open. Whether you have a question or just want to
               say hi, I’ll try my best to get back to you!
             </p>
-            <button>Say Hello</button>
           </center>
         </div>
       </div>

@@ -245,24 +245,6 @@ body {
     color: $light;
     margin-left: 10px;
   }
-  ul li::before {
-    content: "▹";
-    position: absolute;
-    left: 0px;
-    color: $seagreen;
-    font-size: 12px;
-    line-height: 12px;
-    left: 24%;
-  }
-  ol li:after {
-    content: "▹";
-    position: absolute;
-    left: 0px;
-    color: $seagreen;
-    font-size: 12px;
-    line-height: 12px;
-    left: 37%;
-  }
 }
 .link-alteration {
   color: $seagreen;

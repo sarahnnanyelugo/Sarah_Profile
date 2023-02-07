@@ -38,21 +38,7 @@ export const ExpTab = () => {
                     {" "}
                     Collaborated in building the frontend of SwitchApp; A
                     payment gateway aggregator.
-                  </li>{" "}
-                  <li>
-                    {" "}
-                    Collaborated in building the frontend of SwitchApp; A
-                    payment gateway aggregator.
-                  </li>{" "}
-                  <li>
-                    {" "}
-                    Collaborated in building the frontend of SwitchApp; A
-                    payment gateway aggregator.
-                  </li>{" "}
-                  <li>
-                    {" "}
-                    Collaborated in building the frontend of SwitchApp; A
-                    payment gateway aggregator.
+                    <br />
                   </li>
                 </ol>
               </Tab.Pane>
@@ -66,18 +52,6 @@ export const ExpTab = () => {
                     </a>
                   </h6>
                   <br />
-                  <li>
-                    Responsible for building official websites for our numerous
-                    clients around the world
-                  </li>
-                  <li>
-                    Responsible for building official websites for our numerous
-                    clients around the world
-                  </li>
-                  <li>
-                    Responsible for building official websites for our numerous
-                    clients around the world
-                  </li>
                   <li>
                     Responsible for building official websites for our numerous
                     clients around the world

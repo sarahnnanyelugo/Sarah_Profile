@@ -12,7 +12,7 @@ export const Menu = () => {
   return (
     <>
       <Button variant="" onClick={handleShow}>
-        Work
+        Some Things I’ve Built
       </Button>
 
       <Offcanvas show={show} onHide={handleClose}>

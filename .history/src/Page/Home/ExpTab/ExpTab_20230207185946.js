@@ -21,7 +21,7 @@ export const ExpTab = () => {
               </Nav.Item>
             </Nav>
           </Col>
-          <Col sm={9} style={{ marginTop: "10px" }}>
+          <Col sm={9} style={{ marginTop: "20px" }}>
             <Tab.Content>
               <Tab.Pane eventKey="first">
                 <ol className="list-unstyled">
@@ -29,30 +29,17 @@ export const ExpTab = () => {
                     {" "}
                     Frontend Developer @{" "}
                     <a href="#" target="_blank" className="link-alteration">
-                      {" "}
                       SwitchApp Technologies
                     </a>
                   </h6>{" "}
                   <br />
                   <li>
                     {" "}
-                    Collaborated in building the frontend of SwitchApp; A
-                    payment gateway aggregator.
-                  </li>{" "}
-                  <li>
-                    {" "}
-                    Collaborated in building the frontend of SwitchApp; A
-                    payment gateway aggregator.
-                  </li>{" "}
-                  <li>
-                    {" "}
-                    Collaborated in building the frontend of SwitchApp; A
-                    payment gateway aggregator.
-                  </li>{" "}
-                  <li>
-                    {" "}
-                    Collaborated in building the frontend of SwitchApp; A
-                    payment gateway aggregator.
+                    <small>
+                      Collaborated in building the frontend of SwitchApp; A
+                      payment gateway aggregator.
+                      <br />
+                    </small>
                   </li>
                 </ol>
               </Tab.Pane>
@@ -60,27 +47,17 @@ export const ExpTab = () => {
                 <ol className="list-unstyled">
                   {" "}
                   <h6>
-                    Intern @{" "}
+                    {" "}
                     <a href="#" target="_blank" className="link-alteration">
                       Educare Technology Solutions{" "}
                     </a>
                   </h6>
                   <br />
                   <li>
-                    Responsible for building official websites for our numerous
-                    clients around the world
-                  </li>
-                  <li>
-                    Responsible for building official websites for our numerous
-                    clients around the world
-                  </li>
-                  <li>
-                    Responsible for building official websites for our numerous
-                    clients around the world
-                  </li>
-                  <li>
-                    Responsible for building official websites for our numerous
-                    clients around the world
+                    <small>
+                      Responsible for building official websites for our
+                      numerous clients around the world
+                    </small>
                   </li>
                 </ol>
               </Tab.Pane>

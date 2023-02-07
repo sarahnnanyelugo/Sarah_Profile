@@ -12,12 +12,12 @@ export const Navbar = () => {
         <div className="col-md-4">
           <ol className="list-unstyled list-inline">
             <li className="list-inline-item">
-              <a href="#about">
+              <a href="#">
                 <span>01.</span>About
               </a>
             </li>{" "}
             <li className="list-inline-item">
-              <a href="#experience">
+              <a href="#">
                 <span>02.</span>Experience
               </a>
             </li>
@@ -25,7 +25,7 @@ export const Navbar = () => {
               <Menu />
             </li>
             <li className="list-inline-item">
-              <a href="#contact">
+              <a href="#">
                 <span>03.</span>Contact
               </a>
             </li>
