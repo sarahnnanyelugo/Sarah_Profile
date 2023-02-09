@@ -1,0 +1,63 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.project-body {
+  margin-top: 70px;
+  height: 400px;
+  box-shadow: 0 0 1px 0px rgb(74, 73, 73);
+  border-radius: 50px;
+  background: $purple;
+  padding: 30px 0;
+  .preview {
+    height: 100%;
+    background-image: url("../../assets/well.png");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 40px;
+    transition: 0.5s ease;
+
+    &:hover {
+      background-image: url("../../assets/well2.png");
+      transition: 0.5s ease;
+    }
+    img {
+      width: 100%;
+      border-radius: 40px;
+    }
+  }
+  .about {
+    padding-top: 10%;
+  }
+  h4 {
+    color: $light;
+    font-family: exospace;
+  }
+  i {
+    &:hover {
+      color: $seagreen;
+    }
+  }
+  .link-alteration {
+    color: #183982;
+    font-family: exospace;
+    text-decoration: none !important;
+  }
+  .cool-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: $light;
+    transition: width 0.3s;
+    position: relative;
+    z-index: 300000000000000;
+  }
+
+  .cool-link:hover::after {
+    width: 50%;
+  }
+  .numbers {
+    margin-top: -80px;
+    margin-left: -60px;
+  }
+}

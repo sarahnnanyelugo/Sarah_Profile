@@ -1,0 +1,17 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.project-body {
+  margin-top: 70px;
+  height: 400px;
+  border: solid 1px $light;
+  border-radius: 50px;
+  background: $purple;
+  padding: 30px 0;
+  .preview {
+    height: 340px;
+    border: solid 1px red;
+    border-radius: 40px;
+    background: green;
+  }
+}

@@ -1,0 +1,119 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.project-body {
+  margin-top: 70px;
+  height: 400px;
+  border: solid 1px $light;
+  border-radius: 50px;
+  background: $purple;
+  padding: 30px 0;
+  .preview {
+    height: 100%;
+
+    border-radius: 40px;
+
+    img {
+      width: 100%;
+      border-radius: 40px;
+    }
+  }
+
+  .glass {
+    position: relative;
+    width: 400px;
+    height: 400px;
+
+    & + & {
+      margin-left: 1rem;
+    }
+
+    &:after,
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      mask-position: 50% 50%;
+      transition: mask-size 0.75s;
+      transition-property: mask-size, background-position;
+    }
+  }
+
+  .glass--1 {
+    &,
+    &:after,
+    &:before {
+      background: url(https://source.unsplash.com/random/800x800?spring);
+      background-size: 110% 110%;
+    }
+
+    &:after,
+    &:before {
+      mask-image: linear-gradient(
+        to right bottom,
+        white 51%,
+        rgba(0, 0, 0, 0) 0
+      );
+      mask-size: var(--tile) var(--tile);
+      mask-position: 50% 50%;
+    }
+
+    &:after {
+      background-position: -0.5vw -0.5vw;
+      mask-image: linear-gradient(to left top, white 51%, rgba(0, 0, 0, 0) 0);
+    }
+
+    &:hover:before,
+    &:hover:after {
+      --tile: 100px;
+      mask-size: calc(var(--tile) * 0.45) calc(var(--tile) * 1.5);
+    }
+    &:hover:after {
+      background-position: -1vw -1vw;
+    }
+  }
+
+  .glass--2 {
+    &,
+    &:after,
+    &:before {
+      background: url(https://source.unsplash.com/random/800x800?blossom);
+      background-size: 110% 110%;
+    }
+
+    &:after,
+    &:before {
+      mask-image: repeating-radial-gradient(
+        white,
+        white 1em,
+        transparent 0,
+        transparent 2em
+      );
+      mask-size: var(--radius) var(--radius);
+      mask-position: 50% 50%;
+    }
+
+    &:after {
+      background-position: -0.5vw -0.5vw;
+      background-position: -1vw -1vw;
+      mask-image: repeating-radial-gradient(
+        transparent,
+        transparent 1em,
+        white 0,
+        white 2em
+      );
+    }
+
+    &:hover:before,
+    &:hover:after {
+      --radius: 70%;
+    }
+    &:hover:after {
+      background-position: -0.5vw -0.5vw;
+    }
+  }
+}
