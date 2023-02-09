@@ -8,8 +8,7 @@ import "./_menu.scss";
 import Num1 from "../../assets/num1.svg";
 import Num2 from "../../assets/num2.svg";
 import Num3 from "../../assets/num3.svg";
-import Num4 from "../../assets/num4.svg";
-import { OtherProjects } from "../MyProject/OtherProjects";
+import Num4 from "../../assets/num2.svg";
 
 export const Menu = () => {
   const [show, setShow] = useState(false);
@@ -60,30 +59,7 @@ export const Menu = () => {
                 projectNum={Num3}
               />
 
-              <MyProject
-                className="maryland"
-                projectName="Maryland College"
-                cls="link-alteration4"
-                projectUrl={"/"}
-                projectNum={Num4}
-              />
-            </div>
-            <div className="col-md-8 offset-md-2 flexy">
-              <div className="col-md-4">
-                <div className="col-md-11">
-                  <OtherProjects />
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="col-md-11">
-                  <OtherProjects />
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="col-md-11">
-                  <OtherProjects />
-                </div>
-              </div>
+              <MyProject />
             </div>
           </div>
         </Offcanvas.Body>

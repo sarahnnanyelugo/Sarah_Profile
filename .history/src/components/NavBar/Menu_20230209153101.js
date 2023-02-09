@@ -70,19 +70,7 @@ export const Menu = () => {
             </div>
             <div className="col-md-8 offset-md-2 flexy">
               <div className="col-md-4">
-                <div className="col-md-11">
-                  <OtherProjects />
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="col-md-11">
-                  <OtherProjects />
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="col-md-11">
-                  <OtherProjects />
-                </div>
+                <OtherProjects />
               </div>
             </div>
           </div>

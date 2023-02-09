@@ -1,22 +1,19 @@
 import "./_my-project.scss";
+import Num1 from "../../assets/num1.svg";
 
-export const MyProject = ({ className, cls, ...props }) => {
+export const MyProject = ({ className }) => {
   return (
     <>
       {" "}
       <div className="project-body col-md-12 flexed">
-        <div className={`preview col-md-6 offset-md-1 ${className}`}></div>
+        <div className="preview col-md-6 offset-md-1 "></div>
 
         <div className="col-md-5 about">
           <center>
             {" "}
-            <h4>{props.projectName}</h4>
+            <h4>Wellspring College</h4>
             <br />
-            <a
-              href={props.projectUrl}
-              target="_blank"
-              className={`cool-link ${cls}`}
-            >
+            <a href="#" target="_blank" className="cool-link link-alteration">
               VISIT THE WEBSITE
             </a>
             <br />
@@ -28,8 +25,8 @@ export const MyProject = ({ className, cls, ...props }) => {
         <div className="col-md-2 col-2 numbers">
           <img
             className="col-md-12 col-2 "
-            src={props.projectNum}
-            alt="num"
+            src={Num1}
+            alt="Scholar"
             width="100%"
           />
         </div>

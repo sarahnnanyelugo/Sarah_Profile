@@ -74,16 +74,6 @@ export const Menu = () => {
                   <OtherProjects />
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="col-md-11">
-                  <OtherProjects />
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="col-md-11">
-                  <OtherProjects />
-                </div>
-              </div>
             </div>
           </div>
         </Offcanvas.Body>

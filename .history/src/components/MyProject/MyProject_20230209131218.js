@@ -12,11 +12,7 @@ export const MyProject = ({ className, cls, ...props }) => {
             {" "}
             <h4>{props.projectName}</h4>
             <br />
-            <a
-              href={props.projectUrl}
-              target="_blank"
-              className={`cool-link ${cls}`}
-            >
+            <a href="#" target="_blank" className={`cool-link ${cls}`}>
               VISIT THE WEBSITE
             </a>
             <br />
@@ -29,7 +25,7 @@ export const MyProject = ({ className, cls, ...props }) => {
           <img
             className="col-md-12 col-2 "
             src={props.projectNum}
-            alt="num"
+            alt="Scholar"
             width="100%"
           />
         </div>

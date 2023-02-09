@@ -7,9 +7,6 @@ import { MyProject } from "../MyProject/MyProject";
 import "./_menu.scss";
 import Num1 from "../../assets/num1.svg";
 import Num2 from "../../assets/num2.svg";
-import Num3 from "../../assets/num3.svg";
-import Num4 from "../../assets/num4.svg";
-import { OtherProjects } from "../MyProject/OtherProjects";
 
 export const Menu = () => {
   const [show, setShow] = useState(false);
@@ -38,52 +35,25 @@ export const Menu = () => {
                 </span>
               </h1>
               <small>Each project is unique. Here are some of my works.</small>
-              <MyProject
-                className="switchapp "
-                cls="link-alteration3"
-                projectName="SwitchApp"
-                projectUrl={"/"}
-                projectNum={Num1}
-              />
+
               <MyProject
                 className="wellspring "
                 cls="link-alteration1"
                 projectName="Wellspring College"
                 projectUrl={"/"}
-                projectNum={Num2}
+                projectNum={Num1}
               />
               <MyProject
                 className="clairemont "
                 projectName="Clairemont School"
                 cls="link-alteration2"
                 projectUrl={"/"}
-                projectNum={Num3}
+                projectNum={Num2}
               />
-
-              <MyProject
-                className="maryland"
-                projectName="Maryland College"
-                cls="link-alteration4"
-                projectUrl={"/"}
-                projectNum={Num4}
-              />
-            </div>
-            <div className="col-md-8 offset-md-2 flexy">
-              <div className="col-md-4">
-                <div className="col-md-11">
-                  <OtherProjects />
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="col-md-11">
-                  <OtherProjects />
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="col-md-11">
-                  <OtherProjects />
-                </div>
-              </div>
+              <MyProject />
+              <MyProject />
+              <MyProject />
+              <MyProject />
             </div>
           </div>
         </Offcanvas.Body>

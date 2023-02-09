@@ -12,11 +12,7 @@ export const MyProject = ({ className, cls, ...props }) => {
             {" "}
             <h4>{props.projectName}</h4>
             <br />
-            <a
-              href={props.projectUrl}
-              target="_blank"
-              className={`cool-link ${cls}`}
-            >
+            <a href="#" target="_blank" className={`cool-link ${cls}`}>
               VISIT THE WEBSITE
             </a>
             <br />

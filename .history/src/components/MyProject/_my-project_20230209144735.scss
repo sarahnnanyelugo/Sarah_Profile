@@ -71,7 +71,7 @@
     transition: 0.5s ease;
   }
 }
-.maryland {
+.clairemont {
   background-image: url("../../assets/maryland.png");
   &:hover {
     background-image: url("../../assets/maryland2.png");
@@ -87,46 +87,4 @@
   color: #7578d3;
   font-family: exospace;
   text-decoration: none !important;
-}
-.link-alteration4 {
-  color: #487d11;
-  font-family: exospace;
-  text-decoration: none !important;
-}
-.project2-body {
-  background: $purple;
-  border-radius: 5px;
-  margin-top: 60px;
-  height: fit-content;
-  padding: 20px 40px;
-  transition: 0.5s ease;
-
-  &:hover {
-    margin-top: -1px;
-    transition: 0.5s ease;
-  }
-  h5 {
-    color: $light;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    &:hover {
-      color: $seagreen;
-    }
-  }
-  p {
-    font-size: 14px;
-    font-family: exospace;
-  }
-  .folder {
-    text-decoration: none !important;
-    font-size: 30px !important;
-  }
-  i {
-    color: $seagreen !important;
-  }
-  ul li {
-    font-size: 9px;
-    font-weight: 100;
-    font-family: exospace;
-  }
 }
