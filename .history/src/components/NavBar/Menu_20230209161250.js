@@ -68,25 +68,12 @@ export const Menu = () => {
                 projectNum={Num4}
               />
             </div>
-            <div
-              className="col-md-8 offset-md-2 flexy"
-              style={{ marginBottom: "30px" }}
-            >
+            <div className="col-md-8 offset-md-2 flexy">
               <div className="col-md-4">
                 <div className="col-md-11">
                   <OtherProjects
-                    projectName="Expense Tracker"
-                    projectDescription="A single paged application built for helping me keep track of my expenses which can be filtered by year and month"
-                    FW1="Reactjs"
-                    FW2="Html"
-                    FW3="SASS"
-                    FW4="Bootstrap"
-                  />
-                </div>
-                <div className="col-md-11">
-                  <OtherProjects
-                    projectName="Mater Ecclesiae College"
-                    projectDescription="Mater Ecclesiae College is a Catholic Secondary school located in Lagos State, Nigeria. This is their official website billt to fit their requirements"
+                    projectName="Time to have fun"
+                    projectDescription="A single paged website built for helping me know where to travel"
                     FW1="Reactjs"
                     FW2="Html"
                     FW3="SASS"
@@ -96,56 +83,15 @@ export const Menu = () => {
               </div>
               <div className="col-md-4">
                 <div className="col-md-11">
-                  {" "}
-                  <OtherProjects
-                    projectName="To-Do list"
-                    projectDescription="A single paged application built with the intention of keeping a list of my daily goals"
-                    FW1="Reactjs"
-                    FW2="Html"
-                    FW3="SASS"
-                    FW4="Bootstrap"
-                  />
-                </div>
-                <div className="col-md-11">
-                  {" "}
-                  <OtherProjects
-                    projectName="Lagoon Schools"
-                    projectDescription="Lagoon Schools is an all-girls secondary school situated in the heart of Lagos State Nigeria. This is their official website and I hope you like it"
-                    FW1="Reactjs"
-                    FW2="Html"
-                    FW3="SASS"
-                    FW4="Bootstrap"
-                  />
+                  <OtherProjects />
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="col-md-11">
-                  {" "}
-                  <OtherProjects
-                    projectName="Bloombreed Academy"
-                    projectDescription="Bloombreed Academy is a school located in the heart of Portharcourt Nigeria. This is their official website I built to their direct specifications"
-                    FW1="Reactjs"
-                    FW2="Html"
-                    FW3="SASS"
-                    FW4="Bootstrap"
-                  />
-                </div>
-                <div className="col-md-11">
-                  {" "}
-                  <OtherProjects
-                    projectName="Evergreen Schools"
-                    projectDescription="Evegreen Schools is a private school located in Enugu State, Nigeria. They wanted a calmly themed website and this won their satisfaction"
-                    FW1="Reactjs"
-                    FW2="Html"
-                    FW3="SASS"
-                    FW4="Bootstrap"
-                  />
+                  <OtherProjects />
                 </div>
               </div>
             </div>
-            <a href="#" className="offset-md-2 more">
-              And lots more...
-            </a>
           </div>
         </Offcanvas.Body>
       </Offcanvas>

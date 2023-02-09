@@ -78,13 +78,6 @@
     transition: 0.5s ease;
   }
 }
-.switchapp {
-  background-image: url("../../assets/switchapp.png");
-  &:hover {
-    background-image: url("../../assets/switchapp2.png");
-    transition: 0.5s ease;
-  }
-}
 .link-alteration1 {
   color: #5383ec;
   font-family: exospace;
@@ -100,11 +93,6 @@
   font-family: exospace;
   text-decoration: none !important;
 }
-.link-alteration3 {
-  color: #85c5fd;
-  font-family: exospace;
-  text-decoration: none !important;
-}
 .project2-body {
   background: $purple;
   border-radius: 5px;
@@ -114,7 +102,7 @@
   transition: 0.5s ease;
 
   &:hover {
-    background: rgba(114, 245, 219, 0.1);
+    background: rgba(114, 245, 219, 0.3);
     transition: 0.5s ease;
   }
   h5 {
@@ -140,14 +128,5 @@
     font-size: 9px;
     font-weight: 100;
     font-family: exospace;
-    color: $seagreen;
-  }
-}
-.more {
-  color: $seagreen;
-  text-decoration: none;
-  font-size: 12px;
-  &:hover {
-    color: $light;
   }
 }

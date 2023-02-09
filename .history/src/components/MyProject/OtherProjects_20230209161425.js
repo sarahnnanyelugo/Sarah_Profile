@@ -6,15 +6,15 @@ export const OtherProjects = (props) => {
       <div className="col-md-12 project2-body">
         <div className="flexed">
           <span>
-            <a href={props.folderUrl} className="folder" target="_blank">
+            <Link to={props.folderUrl} className="folder">
               <i class="icofont-folder"></i>
-            </a>
+            </Link>
           </span>
           <span className="offset-md-10 ">
-            <a href={props.linkUrl} className="ext-link" target="_blank">
+            <Link to={props.linkUrl} className="ext-link">
               {" "}
               <i class="icofont-external-link"></i>
-            </a>
+            </Link>
           </span>
         </div>
         <h5>{props.projectName}</h5>

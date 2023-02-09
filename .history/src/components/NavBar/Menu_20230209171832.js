@@ -68,10 +68,7 @@ export const Menu = () => {
                 projectNum={Num4}
               />
             </div>
-            <div
-              className="col-md-8 offset-md-2 flexy"
-              style={{ marginBottom: "30px" }}
-            >
+            <div className="col-md-8 offset-md-2 flexy">
               <div className="col-md-4">
                 <div className="col-md-11">
                   <OtherProjects
@@ -99,7 +96,7 @@ export const Menu = () => {
                   {" "}
                   <OtherProjects
                     projectName="To-Do list"
-                    projectDescription="A single paged application built with the intention of keeping a list of my daily goals"
+                    projectDescription="A single paged application built witht the intention of keeping a list of my daily goals"
                     FW1="Reactjs"
                     FW2="Html"
                     FW3="SASS"
@@ -133,8 +130,8 @@ export const Menu = () => {
                 <div className="col-md-11">
                   {" "}
                   <OtherProjects
-                    projectName="Evergreen Schools"
-                    projectDescription="Evegreen Schools is a private school located in Enugu State, Nigeria. They wanted a calmly themed website and this won their satisfaction"
+                    projectName="Time to have fun"
+                    projectDescription="A single paged website built for helping me know where to travel"
                     FW1="Reactjs"
                     FW2="Html"
                     FW3="SASS"
@@ -143,9 +140,6 @@ export const Menu = () => {
                 </div>
               </div>
             </div>
-            <a href="#" className="offset-md-2 more">
-              And lots more...
-            </a>
           </div>
         </Offcanvas.Body>
       </Offcanvas>

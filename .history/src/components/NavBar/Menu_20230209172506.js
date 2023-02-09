@@ -68,10 +68,7 @@ export const Menu = () => {
                 projectNum={Num4}
               />
             </div>
-            <div
-              className="col-md-8 offset-md-2 flexy"
-              style={{ marginBottom: "30px" }}
-            >
+            <div className="col-md-8 offset-md-2 flexy">
               <div className="col-md-4">
                 <div className="col-md-11">
                   <OtherProjects
@@ -143,9 +140,6 @@ export const Menu = () => {
                 </div>
               </div>
             </div>
-            <a href="#" className="offset-md-2 more">
-              And lots more...
-            </a>
           </div>
         </Offcanvas.Body>
       </Offcanvas>

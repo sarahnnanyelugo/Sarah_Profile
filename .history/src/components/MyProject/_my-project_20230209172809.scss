@@ -78,13 +78,6 @@
     transition: 0.5s ease;
   }
 }
-.switchapp {
-  background-image: url("../../assets/switchapp.png");
-  &:hover {
-    background-image: url("../../assets/switchapp2.png");
-    transition: 0.5s ease;
-  }
-}
 .link-alteration1 {
   color: #5383ec;
   font-family: exospace;
@@ -97,11 +90,6 @@
 }
 .link-alteration4 {
   color: #487d11;
-  font-family: exospace;
-  text-decoration: none !important;
-}
-.link-alteration3 {
-  color: #85c5fd;
   font-family: exospace;
   text-decoration: none !important;
 }
@@ -146,8 +134,4 @@
 .more {
   color: $seagreen;
   text-decoration: none;
-  font-size: 12px;
-  &:hover {
-    color: $light;
-  }
 }
