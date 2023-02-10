@@ -1,0 +1,224 @@
+@import "../../variables";
+@import "../../shared-styles";
+$nav-links: about, products, media, contact us;
+
+.navbar-container {
+  //   height: 50px;
+  padding: 0px 0px 0px 50px;
+  background: $lightpurple;
+  margin-bottom: 50px;
+  color: $seagreen;
+  width: 100%;
+  @media screen and (max-width: 620px) {
+    // display: npone;
+    padding: 0;
+    height: 60px !important;
+  }
+  .logo {
+    height: 40px;
+    width: 40px;
+    @media screen and (max-width: 620px) {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+  }
+  ol li a {
+    color: $light !important;
+    text-decoration: none;
+    &:hover {
+      color: $seagreen !important;
+      transition: 0.5s ease;
+    }
+    span {
+      color: $seagreen;
+      margin-right: 10px;
+    }
+  }
+  ol li {
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: -30px !important;
+    margin-right: 30px !important;
+    font-family: exospace;
+    @media screen and (max-width: 620px) {
+      margin-right: 0px !important;
+      margin-top: -60px !important;
+    }
+  }
+  ol {
+    @media screen and (max-width: 620px) {
+      margin-left: 25px !important;
+    }
+  }
+  button {
+    padding: 3px 10px !important;
+    @media screen and (max-width: 620px) {
+      // margin-left: 7px !important;
+    }
+  }
+  position: relative;
+  z-index: 20;
+  .web {
+    @media screen and (max-width: 620px) {
+      display: none;
+    }
+  }
+}
+.mobile-menu {
+  @media screen and (min-width: 620px) {
+    display: none;
+  }
+
+  .mobile-menu-body {
+    background: red;
+  }
+  nav {
+    background: inherit;
+    height: 60px;
+    position: relative;
+  }
+  .nav-links {
+    display: block;
+    position: absolute;
+    padding: 0 !important;
+    margin: 0 !important;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    // Dark overlay on open nav
+    &::before {
+      background: inherit;
+      content: "";
+      height: 100vh;
+      left: 0;
+      top: 0;
+      position: absolute;
+      opacity: 0;
+      visibility: hidden;
+      width: 100%;
+      transition: all 0.3s;
+    }
+    li {
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-20px);
+      transition: all 0.3s;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    // Nav open styling - achieved with ':checked' selector
+    &:checked + label {
+      margin-top: -70px;
+      left: 90% !important;
+      border: 4px solid silver;
+      border-radius: 50%;
+      height: 28px;
+      top: 16px;
+      left: 18px;
+      width: 28px;
+      transform: rotate(-135deg);
+      &::before {
+        background: silver;
+        top: 8px;
+        left: 4px;
+        width: 12px;
+      }
+      &::after {
+        background: #fff;
+        opacity: 1;
+        top: 8px;
+        left: 4px;
+        visibility: visible;
+        width: 12px;
+      }
+      &:hover {
+        border-color: #fff;
+        &::before,
+        &::after {
+          background: #fff;
+        }
+      }
+    }
+    &:checked ~ .nav-links {
+      &::before {
+        opacity: 1;
+        visibility: visible;
+      }
+      li {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+
+        @for $i from 1 through length($nav-links) {
+          &:nth-child(#{$i}) {
+            transition-delay: ($i - 1)/10 + s;
+          }
+        }
+      }
+    }
+  }
+
+  // Styling of the linked label element
+  label {
+    background: none transparent;
+    border: 4px solid #fff;
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 24px;
+    transition: all 0.2s;
+    margin-top: -70px;
+    left: 90% !important;
+    &::before {
+      background: #fff;
+      content: "";
+      height: 4px;
+      left: 0;
+      position: absolute;
+      top: 6px;
+      width: 24px;
+      transition: all 0.2s;
+    }
+    &::after {
+      background: coral;
+      content: "";
+      height: 4px;
+      left: 0;
+      position: absolute;
+      top: 6px;
+      opacity: 0;
+      visibility: hidden;
+      width: 100%;
+      transform: rotate(90deg);
+      transition: all 0.2s;
+    }
+  }
+}
+.mobile-logo {
+  // height: 30px !important;
+  width: 70px !important;
+  // margin-top: -30px;
+}
+.mobile-links {
+  width: 105% !important;
+  margin-top: -75px !important;
+  background: $lightpurple;
+  height: fit-content;
+  margin-left: -20px !important;
+  ul li {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+}

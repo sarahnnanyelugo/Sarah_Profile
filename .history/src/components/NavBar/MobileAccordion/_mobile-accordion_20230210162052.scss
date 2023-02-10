@@ -1,0 +1,9 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+.mobile-accordion {
+  width: 100% !important;
+  margin-top: -75px !important;
+  background: $lightpurple;
+  height: 150px;
+  padding: 20px;
+}
