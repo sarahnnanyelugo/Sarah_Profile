@@ -57,13 +57,7 @@ export const Home = ({ active, children }) => {
             fillMode="forwards"
             iteration={1}
           >
-            <button className="intro-btn">
-              <span className="shake">
-                <i class="icofont-hand "></i>
-              </span>
-              Hi There! I'm Sarah
-            </button>
-
+            <button className="intro-btn">Hi There! I'm Sarah</button>
             <h1>
               A <span>Frontend Developer</span>. I Help Startups{" "}
               <span>Launch</span> And <span>Grow</span> Their Products
@@ -85,7 +79,7 @@ export const Home = ({ active, children }) => {
         <span style={{ height: "20px" }} id="about"></span>
         <div className="col-md-12 about-me ">
           <div className="col-md-6 offset-md-2 flexy">
-            <div className="col-md-8 col-12">
+            <div className="col-md-12 col-12">
               <div style={{ display: "flex" }}>
                 <h4>
                   <span>01.</span>About Me
@@ -111,7 +105,7 @@ export const Home = ({ active, children }) => {
                 about HTML & CSS!
               </p>
             </div>
-            <div className="col-md-4 dp-container offset-md-1 col-10">
+            <div className="col-md-3 dp-container offset-md-1 col-10">
               <center>
                 {" "}
                 <img

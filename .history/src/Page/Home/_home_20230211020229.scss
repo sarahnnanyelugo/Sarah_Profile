@@ -29,16 +29,9 @@ body {
     background: $lightpurple;
     color: $seagreen;
     border: none;
-    padding: 7px 40px;
-    border-radius: 20px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    span {
-      color: rgb(229, 189, 141);
-      margin-right: 5px;
-      font-weight: bold;
-      font-size: 25px;
-    }
+    padding: 10px 60px;
+    border-radius: 30px;
+    font-size: 25px;
   }
   h1 {
     color: $light;
@@ -53,31 +46,6 @@ body {
       color: $seagreen !important;
       font-weight: bold;
       font-family: cyborg;
-    }
-  }
-  .shake {
-    position: absolute;
-    width: 20px;
-  }
-  /*creating the shake animation*/
-
-  .shake {
-    animation: shake 0.8s infinite;
-  }
-
-  @keyframes shake {
-    0% {
-      transform: translateX(0);
-    }
-    25% {
-      transform: translateX(25px);
-    }
-
-    50% {
-      transform: translateX(-25px);
-    }
-    100% {
-      transform: translateX(0px);
     }
   }
 }
@@ -279,8 +247,26 @@ body {
     }
   }
   img {
-    filter: saturate(0);
+    --color: #8a9b0f; /* the border color */
+    --border: 10px; /* the border thickness*/
+    --offset: 20px; /* control the offset*/
+    --gap: 5px; /* the gap on hover */
 
+    --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),
+      var(--color) 0;
+    --_o: calc(3 * var(--offset));
+    padding: calc(var(--gap) + var(--border))
+      calc(var(--gap) + var(--border) + var(--offset))
+      calc(var(--gap) + var(--border) + var(--offset))
+      calc(var(--gap) + var(--border));
+    background: linear-gradient(var(--_c)) var(--_o) var(--_o),
+      linear-gradient(90deg, var(--_c)) var(--_o) var(--_o);
+    background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
+    background-repeat: no-repeat;
+    filter: grayscale(0.4);
+    transition: 0.5s;
+    cursor: pointer;
+    filter: saturate(0);
     &:hover {
       filter: saturate(1);
       transition: $trans;

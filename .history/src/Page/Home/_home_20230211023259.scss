@@ -38,6 +38,26 @@ body {
       margin-right: 5px;
       font-weight: bold;
       font-size: 25px;
+
+      transform: translate(-50%, -50%);
+      &:hover {
+        animation: shake 0.8s infinite;
+      }
+    }
+  }
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(25px);
+    }
+
+    50% {
+      transform: translateX(-25px);
+    }
+    100% {
+      transform: translateX(0px);
     }
   }
   h1 {
@@ -53,31 +73,6 @@ body {
       color: $seagreen !important;
       font-weight: bold;
       font-family: cyborg;
-    }
-  }
-  .shake {
-    position: absolute;
-    width: 20px;
-  }
-  /*creating the shake animation*/
-
-  .shake {
-    animation: shake 0.8s infinite;
-  }
-
-  @keyframes shake {
-    0% {
-      transform: translateX(0);
-    }
-    25% {
-      transform: translateX(25px);
-    }
-
-    50% {
-      transform: translateX(-25px);
-    }
-    100% {
-      transform: translateX(0px);
     }
   }
 }

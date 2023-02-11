@@ -58,12 +58,14 @@ export const Home = ({ active, children }) => {
             iteration={1}
           >
             <button className="intro-btn">
-              <span className="shake">
+              <span className="">
                 <i class="icofont-hand "></i>
               </span>
               Hi There! I'm Sarah
             </button>
-
+            <div className="shake">
+              <h2>Shake!</h2>
+            </div>
             <h1>
               A <span>Frontend Developer</span>. I Help Startups{" "}
               <span>Launch</span> And <span>Grow</span> Their Products

@@ -57,12 +57,16 @@ body {
   }
   .shake {
     position: absolute;
-    width: 20px;
+    top: 50%;
+    left: 50%;
+    // transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    color: red !important;
   }
   /*creating the shake animation*/
 
-  .shake {
-    animation: shake 0.8s infinite;
+  .shake:hover i {
+    animation: shake 0.8s;
   }
 
   @keyframes shake {

@@ -57,13 +57,7 @@ export const Home = ({ active, children }) => {
             fillMode="forwards"
             iteration={1}
           >
-            <button className="intro-btn">
-              <span className="shake">
-                <i class="icofont-hand "></i>
-              </span>
-              Hi There! I'm Sarah
-            </button>
-
+            <button className="intro-btn">Hi There! I'm Sarah</button>
             <h1>
               A <span>Frontend Developer</span>. I Help Startups{" "}
               <span>Launch</span> And <span>Grow</span> Their Products

@@ -29,16 +29,9 @@ body {
     background: $lightpurple;
     color: $seagreen;
     border: none;
-    padding: 7px 40px;
-    border-radius: 20px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    span {
-      color: rgb(229, 189, 141);
-      margin-right: 5px;
-      font-weight: bold;
-      font-size: 25px;
-    }
+    padding: 10px 60px;
+    border-radius: 30px;
+    font-size: 25px;
   }
   h1 {
     color: $light;
@@ -53,31 +46,6 @@ body {
       color: $seagreen !important;
       font-weight: bold;
       font-family: cyborg;
-    }
-  }
-  .shake {
-    position: absolute;
-    width: 20px;
-  }
-  /*creating the shake animation*/
-
-  .shake {
-    animation: shake 0.8s infinite;
-  }
-
-  @keyframes shake {
-    0% {
-      transform: translateX(0);
-    }
-    25% {
-      transform: translateX(25px);
-    }
-
-    50% {
-      transform: translateX(-25px);
-    }
-    100% {
-      transform: translateX(0px);
     }
   }
 }
@@ -280,7 +248,6 @@ body {
   }
   img {
     filter: saturate(0);
-
     &:hover {
       filter: saturate(1);
       transition: $trans;
@@ -405,8 +372,8 @@ h2 {
 }
 .flip {
   transform: rotate(90deg) !important;
-  margin-left: 150px !important;
-  margin-bottom: 100px;
+  margin-left: 100px !important;
+  // overflow: hidden !important;
   @media screen and (max-width: 620px) {
     transform: rotate(0deg) !important;
     // margin-left: 200px !important;
@@ -416,6 +383,7 @@ h2 {
     color: $light;
     letter-spacing: 5px;
     text-decoration: none;
+    margin-top: -10px;
     &:hover {
       color: $seagreen;
       text-decoration: underline;
@@ -433,7 +401,7 @@ h2 {
   padding: 10px 0 10px 460px;
   background: $lightpurple;
   overflow: hidden !important;
-  margin-bottom: 0 !important;
+
   @media screen and (max-width: 620px) {
     padding: 0;
     text-align: center;

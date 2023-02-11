@@ -58,7 +58,7 @@ export const Home = ({ active, children }) => {
             iteration={1}
           >
             <button className="intro-btn">
-              <span className="shake">
+              <span className="">
                 <i class="icofont-hand "></i>
               </span>
               Hi There! I'm Sarah

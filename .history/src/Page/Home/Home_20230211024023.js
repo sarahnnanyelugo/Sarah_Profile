@@ -63,7 +63,9 @@ export const Home = ({ active, children }) => {
               </span>
               Hi There! I'm Sarah
             </button>
-
+            <div>
+              <h2>Shake!</h2>
+            </div>
             <h1>
               A <span>Frontend Developer</span>. I Help Startups{" "}
               <span>Launch</span> And <span>Grow</span> Their Products
