@@ -1,0 +1,17 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+// .mobile-links {
+//   width: 100px !important;
+//   margin: 0 !important;
+//   margin-top: -75px !important;
+//   background: $lightpurple;
+//   height: 150px;
+//   padding: 20px;
+// }
+.animated {
+  display: none;
+  @media screen and (max-width: 620px) {
+    height: 10% !important;
+    width: 10% !important;
+  }
+}

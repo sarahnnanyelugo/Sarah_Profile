@@ -20,6 +20,7 @@ body {
   @media screen and (max-width: 620px) {
     padding: 5px;
     text-align: center;
+    // margin-top: 20%;
   }
   p {
     color: $light;
@@ -33,9 +34,6 @@ body {
     border-radius: 20px;
     font-size: 20px;
     margin-bottom: 10px;
-    @media screen and (max-width: 620px) {
-      margin-top: 90px;
-    }
     span {
       color: rgb(229, 189, 141);
       margin-right: 5px;
@@ -276,7 +274,6 @@ body {
   .dp-container {
     background: $seagreen;
     margin-top: 20px;
-    border-radius: 5px;
     @media screen and (max-width: 620px) {
       margin-bottom: 20px;
       padding: 10px;

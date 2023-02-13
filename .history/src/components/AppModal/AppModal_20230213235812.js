@@ -4,7 +4,7 @@ import "./_app-modal.scss";
 // import SampleLogo from "../../assets/wellspring.png";
 
 import React, { useEffect, useRef, useState } from "react";
-import Sarah from "./Sarah";
+import Sarah from "../Sarah";
 
 export const AppModal = () => {
   const [showActive, setShowActive] = useState(false);
