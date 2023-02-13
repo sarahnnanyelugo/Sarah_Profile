@@ -9,20 +9,14 @@ $nav-links: about, products, media, contact us;
   margin-bottom: 50px;
   color: $seagreen;
   width: 100%;
-  position: fixed !important;
   @media screen and (max-width: 620px) {
     // display: npone;
     padding: 0;
     height: 60px !important;
   }
-  &.hide {
-    top: -80px;
-    transform: translateY(-100%);
-  }
   .logo {
-    height: 50px;
-    width: 50px;
-    margin-top: 5px;
+    height: 40px;
+    width: 40px;
     @media screen and (max-width: 620px) {
       margin-top: 10px;
       margin-left: 10px;
@@ -43,8 +37,8 @@ $nav-links: about, products, media, contact us;
   ol li {
     padding: 0 !important;
     margin: 0 !important;
-    margin-top: -25px !important;
-    margin-right: 30px !important;
+    margin-top: -20px !important;
+    margin-left: 20px !important;
     font-family: exospace;
     @media screen and (max-width: 620px) {
       margin-right: 0px !important;

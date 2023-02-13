@@ -36,13 +36,10 @@
     font-family: exospace;
   }
   i {
-    float: right;
-    position: relative;
-    z-index: 2;
+    margin-left: 20%;
     color: $light !important;
     text-decoration: none !important;
     margin-top: 40px;
-    margin-right: 40px;
     &:hover {
       color: $seagreen !important;
     }

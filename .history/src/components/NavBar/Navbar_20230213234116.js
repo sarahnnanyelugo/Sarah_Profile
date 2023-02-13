@@ -30,7 +30,6 @@ export const Navbar = () => {
     // setThisHome();
     setThisShowActive();
   }, [location]);
-  const [y, setY] = useState(window.scrollY);
   const handleNavigation = (e) => {
     const window = e.currentTarget;
     if (y > window.scrollY) {

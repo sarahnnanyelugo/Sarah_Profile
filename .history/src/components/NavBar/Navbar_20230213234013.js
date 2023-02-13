@@ -17,11 +17,6 @@ export const Navbar = () => {
     // do whatever you want with isChecked value
     setShowActive(isChecked);
   };
-  const handleScroll = () => {
-    const position = window.pageYOffset;
-    setScrollPosition(position);
-    // console.log(scrollPosition);
-  };
   const setThisShowActive = () => {
     setShowActive(false);
   };
@@ -30,7 +25,6 @@ export const Navbar = () => {
     // setThisHome();
     setThisShowActive();
   }, [location]);
-  const [y, setY] = useState(window.scrollY);
   const handleNavigation = (e) => {
     const window = e.currentTarget;
     if (y > window.scrollY) {

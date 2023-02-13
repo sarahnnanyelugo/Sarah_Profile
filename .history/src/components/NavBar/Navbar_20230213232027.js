@@ -8,19 +8,12 @@ import CV from "../../assets/my_cv.pdf";
 import "./_navbar.scss";
 export const Navbar = () => {
   const location = useLocation();
-  const [isHome, setIsHome] = useState(true);
-  const [scrollPosition, setScrollPosition] = useState(0);
-  const [scrollDirection, setScrollDirection] = useState(0);
+
   const [showActive, setShowActive] = useState(false);
   const handleChange = (e) => {
     let isChecked = e.target.checked;
     // do whatever you want with isChecked value
     setShowActive(isChecked);
-  };
-  const handleScroll = () => {
-    const position = window.pageYOffset;
-    setScrollPosition(position);
-    // console.log(scrollPosition);
   };
   const setThisShowActive = () => {
     setShowActive(false);
@@ -30,34 +23,10 @@ export const Navbar = () => {
     // setThisHome();
     setThisShowActive();
   }, [location]);
-  const [y, setY] = useState(window.scrollY);
-  const handleNavigation = (e) => {
-    const window = e.currentTarget;
-    if (y > window.scrollY) {
-      // console.log("scrolling up");
-      setScrollDirection(1);
-    } else if (y < window.scrollY) {
-      // console.log("scrolling down");
-      setScrollDirection(-1);
-    }
-    setY(window.scrollY);
-    handleScroll();
-  };
-  useEffect(() => {
-    window.addEventListener("scroll", (e) => handleNavigation(e));
 
-    return () => {
-      // return a cleanup function to unregister our function since it's going to run multiple times
-      window.removeEventListener("scroll", (e) => handleNavigation(e));
-    };
-  }, [y]);
   return (
     <>
-      <div
-        className={`flexy col-md-12 navbar-container ${isHome ? "home" : ""} ${
-          scrollPosition >= 400 && scrollDirection < 0 ? "hide" : ""
-        }`}
-      >
+      <div className="navbar-container flexy col-12">
         <Link to={"/"}>
           {" "}
           <img className="col-md-1 col-2 logo" src={Logo} alt="Scholar" />
@@ -85,12 +54,7 @@ export const Navbar = () => {
               </a>
             </li>
             <li className="list-inline-item web">
-              <button className="app-button">
-                <a href={CV} target="_blank">
-                  {" "}
-                  Resume
-                </a>
-              </button>
+              <button className="app-button">Resume</button>
             </li>{" "}
             <div className="mobile-menu col-md-12 ">
               {" "}
@@ -132,6 +96,7 @@ export const Navbar = () => {
                             <a href={CV} className="app-button" target="_blank">
                               Resume
                             </a>
+                            console.log('clicked')
                           </li>{" "}
                         </ul>
                       </center>

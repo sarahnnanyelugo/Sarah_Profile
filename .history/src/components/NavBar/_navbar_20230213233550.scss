@@ -9,7 +9,7 @@ $nav-links: about, products, media, contact us;
   margin-bottom: 50px;
   color: $seagreen;
   width: 100%;
-  position: fixed !important;
+  position: fixed;
   @media screen and (max-width: 620px) {
     // display: npone;
     padding: 0;

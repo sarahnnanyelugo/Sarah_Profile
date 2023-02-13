@@ -78,7 +78,6 @@ export const Menu = () => {
                 projectName="Clairemont School"
                 cls="link-alteration2"
                 projectUrl={"https://clairemontschool.vercel.app/"}
-                gitUrl={"https://github.com/sarahnnanyelugo/ClairemontSchool"}
                 projectNum={Num3}
                 projectLogo={Clairemont}
                 fullScreen={ClairemontFS}
@@ -92,7 +91,6 @@ export const Menu = () => {
                 projectName="Maryland College"
                 cls="link-alteration4"
                 projectUrl={"https://maryland-school.vercel.app/"}
-                gitUrl={"https://github.com/sarahnnanyelugo/marylandSchool"}
                 projectNum={Num4}
                 projectLogo={Maryland}
                 fullScreen={MarylandFS}

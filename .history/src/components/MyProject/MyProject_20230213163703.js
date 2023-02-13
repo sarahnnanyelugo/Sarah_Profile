@@ -80,7 +80,7 @@ export const MyProject = ({ className, cls, ...props }) => {
             </a>
           </center>
 
-          <a href={props.gitUrl} target="_blank">
+          <a href={props.projectUrl} target="_blank">
             <i class="icofont-github"></i>
           </a>
         </div>

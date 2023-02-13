@@ -80,8 +80,9 @@ export const MyProject = ({ className, cls, ...props }) => {
             </a>
           </center>
 
-          <a href={props.gitUrl} target="_blank">
-            <i class="icofont-github"></i>
+          <a href={props.projectUrl} target="_blank">
+            {/* <i class="icofont-github"></i> */}
+            go
           </a>
         </div>
         <div className="col-md-2 col-2 numbers">

@@ -92,7 +92,6 @@ export const Menu = () => {
                 projectName="Maryland College"
                 cls="link-alteration4"
                 projectUrl={"https://maryland-school.vercel.app/"}
-                gitUrl={"https://github.com/sarahnnanyelugo/marylandSchool"}
                 projectNum={Num4}
                 projectLogo={Maryland}
                 fullScreen={MarylandFS}
