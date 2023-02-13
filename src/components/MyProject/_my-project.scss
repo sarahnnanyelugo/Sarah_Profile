@@ -36,8 +36,11 @@
     font-family: exospace;
   }
   i {
+    float: right;
+    margin-right: 40px;
+    margin-top: 40px;
     &:hover {
-      color: $seagreen;
+      color: $seagreen !important;
     }
   }
 
@@ -118,6 +121,23 @@
   height: fit-content;
   padding: 20px 40px;
   transition: 0.5s ease;
+  &:hover {
+    .ext-link {
+      display: block;
+      transition: 0.5s ease;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $light;
+    &:hover {
+      color: $light;
+    }
+  }
+  .ext-link {
+    display: none;
+    transition: 0.5s ease;
+  }
   @media screen and (max-width: 620px) {
     padding: 20px 60px;
     // margin-left: 40px;
@@ -164,6 +184,8 @@
   }
 }
 .project-logo {
+  margin-top: 30%;
+  width: 20%;
   display: none;
 }
 

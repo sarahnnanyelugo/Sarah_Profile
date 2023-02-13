@@ -30,7 +30,7 @@ export const Profile = () => {
           <div className="col-md-12" style={{ display: "flex" }}>
             <img className="col-md-9 col-12" src={Avatar} alt="Scholar" />
 
-            <div className="screen col-md-3">
+            <div className="screen">
               <div class="center">
                 <div class="wave"></div>
                 <div class="wave"></div>

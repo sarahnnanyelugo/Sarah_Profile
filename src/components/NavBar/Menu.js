@@ -50,38 +50,53 @@ export const Menu = () => {
                 className="switchapp "
                 cls="link-alteration3"
                 projectName="SwitchApp"
-                projectUrl={"/"}
+                projectUrl={"https://switchappgo.com/"}
                 projectNum={Num1}
                 projectLogo={Logo}
                 fullScreen={Switchapp}
+                FW1="Reactjs"
+                FW2="Html"
+                FW3="SASS"
+                FW4="React Carbon Design System"
               />
               <MyProject
                 className="wellspring "
                 cls="link-alteration1"
                 projectName="Wellspring College"
-                projectUrl={"/"}
+                projectUrl={"https://wellspring.vercel.app/"}
                 projectNum={Num2}
                 projectLogo={Wellspring}
                 fullScreen={WellspringFS}
+                FW1="Reactjs"
+                FW2="Html"
+                FW3="SASS"
+                FW4="Bootstrap"
               />
               <MyProject
                 className="clairemont "
                 projectName="Clairemont School"
                 cls="link-alteration2"
-                projectUrl={"/"}
+                projectUrl={"https://clairemontschool.vercel.app/"}
                 projectNum={Num3}
                 projectLogo={Clairemont}
                 fullScreen={ClairemontFS}
+                FW1="HTML"
+                FW2="CSS"
+                FW3="Bootstrap"
               />
 
               <MyProject
                 className="maryland"
                 projectName="Maryland College"
                 cls="link-alteration4"
-                projectUrl={"/"}
+                projectUrl={"https://maryland-school.vercel.app/"}
                 projectNum={Num4}
                 projectLogo={Maryland}
                 fullScreen={MarylandFS}
+                FW1="Reactjs"
+                FW2="Html"
+                FW3="CSS"
+                FW4="Bootstrap"
               />
             </div>
             <div
@@ -95,8 +110,8 @@ export const Menu = () => {
                     projectDescription="A single paged application built for helping me keep track of my expenses which can be filtered by year and month"
                     FW1="Reactjs"
                     FW2="Html"
-                    FW3="SASS"
-                    FW4="Bootstrap"
+                    FW3="CSS"
+                    FW4=""
                   />
                 </div>
                 <div className="col-md-11">
@@ -105,8 +120,9 @@ export const Menu = () => {
                     projectDescription="Mater Ecclesiae College is a Catholic Secondary school located in Lagos State, Nigeria. This is their official website billt to fit their requirements"
                     FW1="Reactjs"
                     FW2="Html"
-                    FW3="SASS"
+                    FW3="CSS"
                     FW4="Bootstrap"
+                    linkUrl={"https://materecclesiae.vercel.app/"}
                   />
                 </div>
               </div>
@@ -118,7 +134,7 @@ export const Menu = () => {
                     projectDescription="A single paged application built with the intention of keeping a list of my daily goals"
                     FW1="Reactjs"
                     FW2="Html"
-                    FW3="SASS"
+                    FW3="CSS"
                     FW4="Bootstrap"
                   />
                 </div>
@@ -129,8 +145,9 @@ export const Menu = () => {
                     projectDescription="Lagoon Schools is an all-girls secondary school situated in the heart of Lagos State Nigeria. This is their official website and I hope you like it"
                     FW1="Reactjs"
                     FW2="Html"
-                    FW3="SASS"
+                    FW3="CSS"
                     FW4="Bootstrap"
+                    linkUrl={"https://lagoon-alpha.vercel.app/"}
                   />
                 </div>
               </div>
@@ -140,10 +157,10 @@ export const Menu = () => {
                   <OtherProjects
                     projectName="Bloombreed Academy"
                     projectDescription="Bloombreed Academy is a school located in the heart of Portharcourt Nigeria. This is their official website I built to their direct specifications"
-                    FW1="Reactjs"
                     FW2="Html"
-                    FW3="SASS"
+                    FW3="CSS"
                     FW4="Bootstrap"
+                    linkUrl={"https://bloombreedschool.vercel.app/"}
                   />
                 </div>
                 <div className="col-md-11">
@@ -153,8 +170,9 @@ export const Menu = () => {
                     projectDescription="Evegreen Schools is a private school located in Enugu State, Nigeria. They wanted a calmly themed website and this won their satisfaction"
                     FW1="Reactjs"
                     FW2="Html"
-                    FW3="SASS"
+                    FW3="CSS"
                     FW4="Bootstrap"
+                    linkUrl={"https://materecclesiae.vercel.app/"}
                   />
                 </div>
               </div>

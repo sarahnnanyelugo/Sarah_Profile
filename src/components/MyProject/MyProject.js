@@ -38,17 +38,19 @@ export const MyProject = ({ className, cls, ...props }) => {
                 />
               </Modal.Body>
             </Modal>
-            <div className="project-logo">
+            <center>
               {" "}
-              <center>
+              <div className="project-logo">
+                {" "}
                 <img
                   className="col-md-1"
                   src={props.projectLogo}
                   alt="num"
                   width="40%"
                 />
-              </center>
-            </div>
+              </div>
+            </center>
+
             {typeof v === "string" && `below ${v.split("-")[0]}`}
           </div>
         ))}
@@ -57,6 +59,18 @@ export const MyProject = ({ className, cls, ...props }) => {
             {" "}
             <h4>{props.projectName}</h4>
             <br />
+            <h6 style={{ marginTop: "30px" }}>Built with</h6>
+            <ul
+              className="list-unstyled list-inline"
+              style={{ marginBottom: "40px" }}
+            >
+              <li className="list-inline-item">{props.FW1}</li>
+              <li className="list-inline-item">{props.FW2}</li>
+              <li className="list-inline-item">{props.FW3}</li>
+              <li className="list-inline-item">{props.FW4}</li>
+            </ul>
+          </center>
+          <center>
             <a
               href={props.projectUrl}
               target="_blank"
@@ -64,11 +78,10 @@ export const MyProject = ({ className, cls, ...props }) => {
             >
               VISIT THE WEBSITE
             </a>
-            <br />
-            <h3>
-              <i class="icofont-github"></i>
-            </h3>
           </center>
+          <h6>
+            <i class="icofont-github"></i>
+          </h6>
         </div>
         <div className="col-md-2 col-2 numbers">
           <img
