@@ -147,11 +147,9 @@ export const Home = ({ active, children }) => {
           </div>
 
           <p className="col-md-6 offset-md-2">
-            Fast-forward to today, I have been covering grounds in software
-            development and by God's grace, meeting expectations. Aside from
-            building numerous websites for our clients local and international,
-            I recently had the opportunity of collaborating in a team of five
-            frontend developers to build{" "}
+            Aside from building numerous websites for our clients local and
+            international, I recently had the opportunity of collaborating in a
+            team of five frontend developers to build{" "}
             <a
               href="switchappgo.com"
               target="_blank"

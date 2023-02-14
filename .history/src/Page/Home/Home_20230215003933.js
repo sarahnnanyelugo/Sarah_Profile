@@ -121,7 +121,7 @@ export const Home = ({ active, children }) => {
                 never looked back. By the time I welcomed my baby, I had learnt
                 HTML, CSS, Javascript and frameworks such as Bootstrap and
                 jQuery. This story is a litle more elabourate than this.
-                Interested?
+                Intrested?
                 <br />
                 <a
                   className="link-alteration"
@@ -147,11 +147,9 @@ export const Home = ({ active, children }) => {
           </div>
 
           <p className="col-md-6 offset-md-2">
-            Fast-forward to today, I have been covering grounds in software
-            development and by God's grace, meeting expectations. Aside from
-            building numerous websites for our clients local and international,
-            I recently had the opportunity of collaborating in a team of five
-            frontend developers to build{" "}
+            Aside from building numerous websites for our clients local and
+            international, I recently had the opportunity of collaborating in a
+            team of five frontend developers to build{" "}
             <a
               href="switchappgo.com"
               target="_blank"

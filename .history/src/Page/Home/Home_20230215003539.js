@@ -98,11 +98,11 @@ export const Home = ({ active, children }) => {
                 {" "}
                 Hello! my name is Sarah Nnanyelugo. I am a frontend developer
                 and I enjoy creating things that live on the internet. This
-                overtime, has made me passionate about digital products that
-                help people experience everyday life, not endure it.
+                overtime has made me passionate about digital products that help
+                people experience everyday life, not endure it.
               </p>{" "}
             </div>
-            <div className="col-md-12 col-12 flexy">
+            <div className="col-md-8 col-12 flexy">
               <p>
                 A little insight on my academic background; I am a graduate of
                 English and Literary studies from the University of Nigeria
@@ -121,8 +121,7 @@ export const Home = ({ active, children }) => {
                 never looked back. By the time I welcomed my baby, I had learnt
                 HTML, CSS, Javascript and frameworks such as Bootstrap and
                 jQuery. This story is a litle more elabourate than this.
-                Interested?
-                <br />
+                Intrested?{" "}
                 <a
                   className="link-alteration"
                   href="https://www.linkedin.com/post/edit/6740319122741174272/"
@@ -147,11 +146,9 @@ export const Home = ({ active, children }) => {
           </div>
 
           <p className="col-md-6 offset-md-2">
-            Fast-forward to today, I have been covering grounds in software
-            development and by God's grace, meeting expectations. Aside from
-            building numerous websites for our clients local and international,
-            I recently had the opportunity of collaborating in a team of five
-            frontend developers to build{" "}
+            Aside from building numerous websites for our clients local and
+            international, I recently had the opportunity of collaborating in a
+            team of five frontend developers to build{" "}
             <a
               href="switchappgo.com"
               target="_blank"

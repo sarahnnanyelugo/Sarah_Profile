@@ -84,8 +84,8 @@ export const Home = ({ active, children }) => {
       <div className="col-md-12 ">
         <span style={{ height: "20px" }} id="about"></span>
         <div className="col-md-12 about-me ">
-          <div className="col-md-6 offset-md-2 ">
-            <div className="col-md-12 col-12">
+          <div className="col-md-6 offset-md-2 flexy">
+            <div className="col-md-8 col-12">
               <div style={{ display: "flex" }}>
                 <h4>
                   <span>01.</span>About Me
@@ -96,73 +96,54 @@ export const Home = ({ active, children }) => {
               </div>
               <p>
                 {" "}
-                Hello! my name is Sarah Nnanyelugo. I am a frontend developer
-                and I enjoy creating things that live on the internet. This
-                overtime, has made me passionate about digital products that
-                help people experience everyday life, not endure it.
+                Hello! my name is Sarah Nanyelugo and I enjoy creating things
+                that live on the internet. I’m probably a boring writer. Well, I
+                often say so to myself. However, there is one definite thing I
+                enjoy so much, and that is talking about myself. Perhaps this
+                time around, I should instead, write it down.
               </p>{" "}
-            </div>
-            <div className="col-md-12 col-12 flexy">
               <p>
-                A little insight on my academic background; I am a graduate of
-                English and Literary studies from the University of Nigeria
-                Nsukka. I graduated in the year 2015 and ever sice, I had delved
-                into series of jobs ranging from teaching to office
-                administration. I am sure at this point, you are probably
-                wondering how I ended up as a Software Developer with no prior
-                background in that dimension. Well, most people see a career
-                path as something you pick once and spend the rest of your
-                working years excelling in that field. I am one of those who see
-                career choices as a rather progressive decision, I believe that
-                as humans, we have enough creativity and ability to do much more
-                than we limit ourselves to.
-                <br /> Pregnant with my first baby, This was the school of
-                thought that birthed my career in software development and I
-                never looked back. By the time I welcomed my baby, I had learnt
-                HTML, CSS, Javascript and frameworks such as Bootstrap and
-                jQuery. This story is a litle more elabourate than this.
-                Interested?
-                <br />
-                <a
-                  className="link-alteration"
-                  href="https://www.linkedin.com/post/edit/6740319122741174272/"
-                  target="_blank"
-                >
-                  Continue from my linkedIn page
-                </a>{" "}
-                It's a good read.
+                {" "}
+                Hello! My name is Sarah and I enjoy creating things that live on
+                the internet. My interest in web development started back in
+                2012 when I decided to try editing custom Tumblr themes — turns
+                out hacking together a custom reblog button taught me a lot
+                about HTML & CSS!
               </p>
-              <div className="col-md-4 dp-container offset-md-1 col-10">
-                <center>
-                  {" "}
-                  <img
-                    className="col-md-12 col-8"
-                    src={Dp}
-                    alt="Scholar"
-                    width="100%"
-                  />
-                </center>
-              </div>
+            </div>
+            <div className="col-md-4 dp-container offset-md-1 col-10">
+              <center>
+                {" "}
+                <img
+                  className="col-md-12 col-8"
+                  src={Dp}
+                  alt="Scholar"
+                  width="100%"
+                />
+              </center>
             </div>
           </div>
+          <p className="col-md-6 offset-md-2">
+            {" "}
+            Hello! My name is Sarah and I enjoy creating things that live on the
+            internet. My interest in web development started back in 2012 when I
+            decided to try editing custom Tumblr themes — turns out hacking
+            together a custom reblog button taught me a lot about HTML & CSS!
+          </p>
 
           <p className="col-md-6 offset-md-2">
-            Fast-forward to today, I have been covering grounds in software
-            development and by God's grace, meeting expectations. Aside from
-            building numerous websites for our clients local and international,
-            I recently had the opportunity of collaborating in a team of five
-            frontend developers to build{" "}
+            {" "}
+            Hello! My name is Sarah and I enjoy creating things that live on the
+            internet. My interest in web development started back in 2012 when I
+            decided to try editing custom Tumblr themes — turns out hacking
+            together a custom reblog button taught me a lot about HTML & CSS!{" "}
             <a
-              href="switchappgo.com"
-              target="_blank"
               className="link-alteration"
+              href="https://www.linkedin.com/post/edit/6740319122741174272/"
+              target="_blank"
             >
-              {" "}
-              SwitchApp
+              Continue from my linkedIn page
             </a>
-            , a payment gateway aggregator with instant settllement. This was my
-            first official collaboration experience and it indeed was a great
-            feat for me.
           </p>
           <p className="col-md-6 offset-md-2">
             {" "}
@@ -270,10 +251,9 @@ koha-16a04b147"
               {" "}
               <h2>Get In Touch</h2>
               <p>
-                Thanks for stopping by, I’m currently looking to join a new team
-                of creative designers and developers. If you think we might be a
-                good fit for one another, give me a call 🇳🇬 or send me an email
-                📧.
+                Although I’m not currently looking for any new opportunities, my
+                inbox is always open. Whether you have a question or just want
+                to say hi, I’ll try my best to get back to you!
               </p>
               <a
                 href="sarahnnanyelugo@gmail.com"
