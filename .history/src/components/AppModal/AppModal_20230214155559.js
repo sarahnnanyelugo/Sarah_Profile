@@ -45,23 +45,24 @@ export const AppModal = () => {
 
             <div className="modal col-md-12">
               <div className="sarah">
-                <div class="patterns">
-                  <svg width="100%" height="100%">
-                    <rect
-                      x="0"
-                      y="0"
-                      width="100%"
-                      height="100%"
-                      fill="url(#polka-dots)"
-                    >
-                      {" "}
-                    </rect>
-
-                    <text x="30%" y="20%" text-anchor="middle">
-                      Sarah
+                <svg viewBox="0 0 960 300">
+                  <symbol id="s-text">
+                    <text text-anchor="middle" x="50%" y="80%">
+                      SARAH
                     </text>
-                  </svg>
-                </div>
+                    <text text-anchor="middle" x="52%" y="80%">
+                      SARAH
+                    </text>
+                  </symbol>
+
+                  <g class="g-ants">
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                  </g>
+                </svg>
               </div>
               <Sarah />
             </div>

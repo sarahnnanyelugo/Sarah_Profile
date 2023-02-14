@@ -86,16 +86,12 @@ export const ExpTab = () => {
                   <li>
                     Interfaced with user experience designers and other
                     developers to ensure thoughtful and coherent user
-                    experiences among our clients
+                    experiences across
                   </li>
                   <li>
                     Developed and maintained code for in-house and client
                     websites primarily using HTML, CSS, Sass, JavaScript, and
                     Reactjs
-                  </li>
-                  <li>
-                    Manually tested sites in various browsers and mobile devices
-                    to ensure cross-browser compatibility and responsiveness
                   </li>
                 </ol>
               </Tab.Pane>

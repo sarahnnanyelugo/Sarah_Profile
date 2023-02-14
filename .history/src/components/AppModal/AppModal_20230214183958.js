@@ -57,8 +57,8 @@ export const AppModal = () => {
                       {" "}
                     </rect>
 
-                    <text x="30%" y="20%" text-anchor="middle">
-                      Sarah
+                    <text x="50%" y="60%" text-anchor="middle">
+                      <center> Sarah</center>
                     </text>
                   </svg>
                 </div>

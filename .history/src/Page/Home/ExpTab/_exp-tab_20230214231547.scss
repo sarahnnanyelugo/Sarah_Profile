@@ -2,17 +2,13 @@
 @import "../../../shared-styles";
 
 .nav-pills .nav-link.active {
+  background: $lightpurple !important;
   color: $seagreen !important;
   border-left: solid 5px $seagreen !important;
   border-radius: 0 !important;
   transition: 1s ease !important;
   font-size: 13px !important;
   margin-left: -4px;
-  background: transparent !important;
-
-  &:hover {
-    background: $lightpurple !important;
-  }
 }
 .nav-link {
   color: $light !important;

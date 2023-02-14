@@ -155,7 +155,6 @@ export const Home = ({ active, children }) => {
               <li>CSS/SASS</li>
               <li>Boostrap</li>
               <li>React Carbon Design System</li>
-              <li> React Testing</li>
             </ul>
             <ol className="list-unstyled">
               <li>ReactJs</li>

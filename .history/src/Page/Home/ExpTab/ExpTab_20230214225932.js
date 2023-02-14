@@ -21,7 +21,7 @@ export const ExpTab = () => {
               </Nav.Item>
             </Nav>
           </Col>
-          <Col sm={9} style={{ marginTop: "10px" }} className="tab-content">
+          <Col sm={9} style={{ marginTop: "10px" }}>
             <Tab.Content>
               <Tab.Pane eventKey="first">
                 <ol className="list-unstyled">
@@ -32,13 +32,11 @@ export const ExpTab = () => {
                       {" "}
                       SwitchApp Technologies
                     </a>
-                    <br />
-                    <small>- Present</small>
                   </h6>{" "}
                   <br />
                   <li>
                     {" "}
-                    Collaborated in a team of six developers to build the
+                    Collaborated in a team of six developers to buil the
                     frontend of SwitchApp; A payment gateway aggregator.
                   </li>{" "}
                   <li>
@@ -46,22 +44,14 @@ export const ExpTab = () => {
                     using jest and react testing library
                   </li>{" "}
                   <li>
-                    Work with a variety of different languages, platforms,
-                    frameworks, and content management systems such as
-                    JavaScript, TypeScript, React, React Testing Library, Carbon
-                    Design System
+                    {" "}
+                    Collaborated in building the frontend of SwitchApp; A
+                    payment gateway aggregator.
                   </li>{" "}
                   <li>
-                    Responsible for collating daily updates of team work flow
-                    and progress
-                  </li>{" "}
-                  <li>
-                    Communicate with multi-disciplinary teams of engineers,
-                    designers, producers, and clients on a daily basis
-                  </li>{" "}
-                  <li>
-                    Write modern, performant, maintainable and reusuable code
-                    for a diverse array of client and internal projects
+                    {" "}
+                    Collaborated in building the frontend of SwitchApp; A
+                    payment gateway aggregator.
                   </li>
                 </ol>
               </Tab.Pane>
@@ -80,22 +70,16 @@ export const ExpTab = () => {
                     clients around the world
                   </li>
                   <li>
-                    Interfaced with clients on a weekly basis, providing
-                    technological expertise
+                    Responsible for building official websites for our numerous
+                    clients around the world
                   </li>
                   <li>
-                    Interfaced with user experience designers and other
-                    developers to ensure thoughtful and coherent user
-                    experiences among our clients
+                    Responsible for building official websites for our numerous
+                    clients around the world
                   </li>
                   <li>
-                    Developed and maintained code for in-house and client
-                    websites primarily using HTML, CSS, Sass, JavaScript, and
-                    Reactjs
-                  </li>
-                  <li>
-                    Manually tested sites in various browsers and mobile devices
-                    to ensure cross-browser compatibility and responsiveness
+                    Responsible for building official websites for our numerous
+                    clients around the world
                   </li>
                 </ol>
               </Tab.Pane>

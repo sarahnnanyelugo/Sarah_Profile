@@ -32,8 +32,6 @@ export const ExpTab = () => {
                       {" "}
                       SwitchApp Technologies
                     </a>
-                    <br />
-                    <small>- Present</small>
                   </h6>{" "}
                   <br />
                   <li>
@@ -80,22 +78,16 @@ export const ExpTab = () => {
                     clients around the world
                   </li>
                   <li>
-                    Interfaced with clients on a weekly basis, providing
-                    technological expertise
+                    Responsible for building official websites for our numerous
+                    clients around the world
                   </li>
                   <li>
-                    Interfaced with user experience designers and other
-                    developers to ensure thoughtful and coherent user
-                    experiences among our clients
+                    Responsible for building official websites for our numerous
+                    clients around the world
                   </li>
                   <li>
-                    Developed and maintained code for in-house and client
-                    websites primarily using HTML, CSS, Sass, JavaScript, and
-                    Reactjs
-                  </li>
-                  <li>
-                    Manually tested sites in various browsers and mobile devices
-                    to ensure cross-browser compatibility and responsiveness
+                    Responsible for building official websites for our numerous
+                    clients around the world
                   </li>
                 </ol>
               </Tab.Pane>

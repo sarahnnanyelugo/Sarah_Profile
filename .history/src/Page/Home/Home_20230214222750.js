@@ -155,7 +155,7 @@ export const Home = ({ active, children }) => {
               <li>CSS/SASS</li>
               <li>Boostrap</li>
               <li>React Carbon Design System</li>
-              <li> React Testing</li>
+              <li>Chakra UI</li>
             </ul>
             <ol className="list-unstyled">
               <li>ReactJs</li>
@@ -238,43 +238,18 @@ export const Home = ({ active, children }) => {
                 inbox is always open. Whether you have a question or just want
                 to say hi, I’ll try my best to get back to you!
               </p>
-              <a
-                href="sarahnnanyelugo@gmail.com"
-                target="_blank"
-                className="app-button"
-              >
-                Say Hello
-              </a>
+              <button className="app-button">Say Hello</button>
             </center>
           </div>
           <div className="flip col-1 dn">
             {" "}
-            <a href="sarahnnanyelugo@gmail.com" target="_blank">
-              sarahnnanyelugo@gmail.com
-            </a>
+            <a href="#">sarahnnanyelugo@gmail.com</a>
             {/* <div className="vr1"></div> */}
           </div>
         </div>
         <div className=" col-1 dn2">
           {" "}
-          <a href="sarahnnanyelugo@gmail.com" target="_blank">
-            sarahnnanyelugo@gmail.com
-          </a>
-        </div>
-        <div className="quote col-md-8 offset-md-2">
-          <center>
-            {" "}
-            <p>
-              <em>
-                {" "}
-                Even in moments of obscurity and anonymity, strive however for
-                excellence without compromise, for when the opportunities you so
-                desire will come by, all you would have to present would be your
-                works, and by then, there may be little or no time for editing.
-              </em>
-            </p>
-            <p className=" offset-md-9 quoter">Sarah Nnanyelugo</p>
-          </center>
+          <a href="#">sarahnnanyelugo@gmail.com</a>
         </div>
         <div className="col-md-12 footer flexy">
           <div className="col-md-12 flexy">

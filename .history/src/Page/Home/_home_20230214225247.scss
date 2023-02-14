@@ -506,9 +506,6 @@ h2 {
     color: $light;
     font-size: 18px;
     font-family: essones-d-regular;
-    @media screen and (max-width: 620px) {
-      margin-top: 40px;
-    }
   }
   .quoter {
     color: $seagreen;

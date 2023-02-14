@@ -44,25 +44,7 @@ export const AppModal = () => {
             </button> */}
 
             <div className="modal col-md-12">
-              <div className="sarah">
-                <div class="patterns">
-                  <svg width="100%" height="100%">
-                    <rect
-                      x="0"
-                      y="0"
-                      width="100%"
-                      height="100%"
-                      fill="url(#polka-dots)"
-                    >
-                      {" "}
-                    </rect>
-
-                    <text x="30%" y="20%" text-anchor="middle">
-                      Sarah
-                    </text>
-                  </svg>
-                </div>
-              </div>
+              <h1 className="sarah">SARAH</h1>
               <Sarah />
             </div>
           </div>

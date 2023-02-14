@@ -155,7 +155,6 @@ export const Home = ({ active, children }) => {
               <li>CSS/SASS</li>
               <li>Boostrap</li>
               <li>React Carbon Design System</li>
-              <li> React Testing</li>
             </ul>
             <ol className="list-unstyled">
               <li>ReactJs</li>
@@ -238,20 +237,12 @@ export const Home = ({ active, children }) => {
                 inbox is always open. Whether you have a question or just want
                 to say hi, I’ll try my best to get back to you!
               </p>
-              <a
-                href="sarahnnanyelugo@gmail.com"
-                target="_blank"
-                className="app-button"
-              >
-                Say Hello
-              </a>
+              <button className="app-button">Say Hello</button>
             </center>
           </div>
           <div className="flip col-1 dn">
             {" "}
-            <a href="sarahnnanyelugo@gmail.com" target="_blank">
-              sarahnnanyelugo@gmail.com
-            </a>
+            <a href="#">sarahnnanyelugo@gmail.com</a>
             {/* <div className="vr1"></div> */}
           </div>
         </div>
