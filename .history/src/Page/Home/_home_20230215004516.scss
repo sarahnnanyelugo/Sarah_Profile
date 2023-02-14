@@ -314,9 +314,6 @@ body {
     font-size: 12px;
     line-height: 12px;
     left: 24%;
-    @media screen and (max-width: 620px) {
-      display: none;
-    }
   }
   ol li:after {
     content: "▹";
