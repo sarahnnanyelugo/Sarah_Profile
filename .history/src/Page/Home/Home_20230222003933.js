@@ -211,7 +211,8 @@ export const Home = ({ active, children }) => {
                   <li>ReactJs</li> <br />
                 </ul>
               </li>
-              <li>Typescript</li> <br />
+
+              <li>Typescript</li>
               <li>Adobe XD</li>
             </ol>
           </div>

@@ -159,7 +159,7 @@ export const Home = ({ active, children }) => {
               {" "}
               SwitchApp
             </a>
-            , a payment gateway aggregator with instant settlement. This was my
+            , a payment gateway aggregator with instant settllement. This was my
             first official collaboration experience and it indeed was a great
             feat for me.
           </p>
@@ -168,51 +168,25 @@ export const Home = ({ active, children }) => {
             Here are a few technologies I’ve been working with recently:
           </p>
           <div style={{ display: "flex" }} className="col-md-6 offset-md-3">
-            {/* <ul className="list-unstyled" style={{ marginRight: "50px" }}>
+            <ul className="list-unstyled" style={{ marginRight: "50px" }}>
               <li>HTML</li>
 
               <li>
-                CSS
                 <ul className="list-unstyled">
+                  <li>CSS</li>
                   <li>Boostrap</li>
                   <li>React Carbon Design System</li>
                 </ul>
               </li>
 
               <li> React Testing</li>
-            </ul> */}
-            <ul className="list-unstyled" style={{ marginRight: "60px" }}>
-              <li>HTML</li>
-              <br />
-              <li>
-                CSS/SCSS
-                <ul>
-                  <li>Boostrap</li>
-                  <li>React Carbon Design System</li>
-                  <li>Chakra ui</li>
-                </ul>
-              </li>
-              <br />
-              <li>
-                {" "}
-                <li>
-                  React Testing
-                  <ul>
-                    <li>Jest</li>
-                    <li>React Testing Library</li>
-                  </ul>
-                </li>
-              </li>
             </ul>
             <ol className="list-unstyled">
-              <li>
-                Javascript
-                <ul>
-                  <li>ReactJs</li> <br />
-                </ul>
-              </li>
-              <li>Typescript</li> <br />
+              <li>ReactJs</li>
+              <li>Typescript</li>
+              <li>Javascript</li>
               <li>Adobe XD</li>
+              <li>Chakra ui</li>
             </ol>
           </div>
         </div>

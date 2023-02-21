@@ -307,30 +307,30 @@ body {
     color: $light;
     margin-left: 10px;
   }
-  ul li::before {
-    content: "▹";
-    position: absolute;
-    left: 0px;
-    color: $seagreen;
-    font-size: 12px;
-    line-height: 12px;
-    left: 24%;
-    @media screen and (max-width: 620px) {
-      display: none;
-    }
-  }
-  ol li:after {
-    content: "▹";
-    position: absolute;
-    left: 0px;
-    color: $seagreen;
-    font-size: 12px;
-    line-height: 12px;
-    left: 39%;
-    @media screen and (max-width: 620px) {
-      display: none;
-    }
-  }
+  // ul li::before {
+  //   content: "▹";
+  //   position: absolute;
+  //   left: 0px;
+  //   color: $seagreen;
+  //   font-size: 12px;
+  //   line-height: 12px;
+  //   left: 24%;
+  //   @media screen and (max-width: 620px) {
+  //     display: none;
+  //   }
+  // }
+  // ol li:after {
+  //   content: "▹";
+  //   position: absolute;
+  //   left: 0px;
+  //   color: $seagreen;
+  //   font-size: 12px;
+  //   line-height: 12px;
+  //   left: 39%;
+  //   @media screen and (max-width: 620px) {
+  //     display: none;
+  //   }
+  // }
 }
 .link-alteration {
   color: $seagreen;

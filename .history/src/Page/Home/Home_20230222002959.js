@@ -159,7 +159,7 @@ export const Home = ({ active, children }) => {
               {" "}
               SwitchApp
             </a>
-            , a payment gateway aggregator with instant settlement. This was my
+            , a payment gateway aggregator with instant settllement. This was my
             first official collaboration experience and it indeed was a great
             feat for me.
           </p>
@@ -181,7 +181,7 @@ export const Home = ({ active, children }) => {
 
               <li> React Testing</li>
             </ul> */}
-            <ul className="list-unstyled" style={{ marginRight: "60px" }}>
+            <ul className="list-unstyled" style={{ marginRight: "50px" }}>
               <li>HTML</li>
               <br />
               <li>
@@ -197,22 +197,19 @@ export const Home = ({ active, children }) => {
                 {" "}
                 <li>
                   React Testing
-                  <ul>
+                  <ol>
                     <li>Jest</li>
-                    <li>React Testing Library</li>
-                  </ul>
+                    <li>React React Testing Library</li>
+                  </ol>
                 </li>
               </li>
             </ul>
             <ol className="list-unstyled">
-              <li>
-                Javascript
-                <ul>
-                  <li>ReactJs</li> <br />
-                </ul>
-              </li>
-              <li>Typescript</li> <br />
+              <li>ReactJs</li>
+              <li>Typescript</li>
+              <li>Javascript</li>
               <li>Adobe XD</li>
+              <li>Chakra ui</li>
             </ol>
           </div>
         </div>

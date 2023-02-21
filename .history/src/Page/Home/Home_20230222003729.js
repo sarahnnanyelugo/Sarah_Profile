@@ -199,7 +199,7 @@ export const Home = ({ active, children }) => {
                   React Testing
                   <ul>
                     <li>Jest</li>
-                    <li>React Testing Library</li>
+                    <li>React React Testing Library</li>
                   </ul>
                 </li>
               </li>
@@ -208,11 +208,13 @@ export const Home = ({ active, children }) => {
               <li>
                 Javascript
                 <ul>
-                  <li>ReactJs</li> <br />
+                  <li>ReactJs</li>
                 </ul>
               </li>
-              <li>Typescript</li> <br />
+
+              <li>Typescript</li>
               <li>Adobe XD</li>
+              <li>Chakra ui</li>
             </ol>
           </div>
         </div>

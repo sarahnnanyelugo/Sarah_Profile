@@ -319,18 +319,18 @@ body {
       display: none;
     }
   }
-  ol li:after {
-    content: "▹";
-    position: absolute;
-    left: 0px;
-    color: $seagreen;
-    font-size: 12px;
-    line-height: 12px;
-    left: 39%;
-    @media screen and (max-width: 620px) {
-      display: none;
-    }
-  }
+  // ol li:after {
+  //   content: "▹";
+  //   position: absolute;
+  //   left: 0px;
+  //   color: $seagreen;
+  //   font-size: 12px;
+  //   line-height: 12px;
+  //   left: 39%;
+  //   @media screen and (max-width: 620px) {
+  //     display: none;
+  //   }
+  // }
 }
 .link-alteration {
   color: $seagreen;

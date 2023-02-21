@@ -207,11 +207,13 @@ export const Home = ({ active, children }) => {
             <ol className="list-unstyled">
               <li>
                 Javascript
+                <br />
                 <ul>
-                  <li>ReactJs</li> <br />
+                  <li>ReactJs</li>
                 </ul>
               </li>
-              <li>Typescript</li> <br />
+
+              <li>Typescript</li>
               <li>Adobe XD</li>
             </ol>
           </div>

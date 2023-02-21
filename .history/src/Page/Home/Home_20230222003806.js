@@ -208,11 +208,13 @@ export const Home = ({ active, children }) => {
               <li>
                 Javascript
                 <ul>
-                  <li>ReactJs</li> <br />
+                  <li>ReactJs</li>
                 </ul>
               </li>
-              <li>Typescript</li> <br />
+
+              <li>Typescript</li>
               <li>Adobe XD</li>
+              <li>Chakra ui</li>
             </ol>
           </div>
         </div>
