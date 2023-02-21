@@ -7,7 +7,7 @@
   border-radius: 0 !important;
   transition: 1s ease !important;
   font-size: 13px !important;
-  margin-left: -4px;
+  // margin-left: -4px;
   background: $lightpurple !important;
 
   &:hover {
@@ -27,9 +27,8 @@ h6 {
 }
 .tab-content {
   background: $lightpurple !important;
-  margin-left: -14px;
+  // margin: 0 !important;
   padding: 10px;
-  padding-left: 30px;
   ol li {
     font-size: 16px;
     margin-top: 20px;
