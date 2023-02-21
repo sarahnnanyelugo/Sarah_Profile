@@ -58,7 +58,6 @@ export const Menu = () => {
                 FW2="Html"
                 FW3="SASS"
                 FW4="React Carbon Design System"
-                projectPreview=" mobile-switch"
               />
               <MyProject
                 className="wellspring "
@@ -73,7 +72,6 @@ export const Menu = () => {
                 FW2="Html"
                 FW3="SASS"
                 FW4="Bootstrap"
-                projectPreview="wellspringPreview"
               />
               <MyProject
                 className="clairemont "
@@ -87,7 +85,6 @@ export const Menu = () => {
                 FW1="HTML"
                 FW2="CSS"
                 FW3="Bootstrap"
-                projectPreview="clairemontPreview"
               />
 
               <MyProject
@@ -103,7 +100,7 @@ export const Menu = () => {
                 FW2="Html"
                 FW3="CSS"
                 FW4="Bootstrap"
-                projectPreview=" maryland-mobile"
+                projectPreview=" mobile-switch"
               />
             </div>
             <div

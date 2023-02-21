@@ -36,8 +36,12 @@ export const MyProject = ({ className, cls, projectPreview, ...props }) => {
                   alt="preview"
                   width="100%"
                 /> */}
-                <div className={`col-md-12 ${projectPreview}`}></div>
-                {/* <div className="col-md-12 mobile-switch"></div> */}
+                <div className={`col-md-12 ${projectPreview}`}>
+                  <h1 className={`col-md-12 ${projectPreview}`}>
+                    bhcbhbhdbcuy udhuchuydcc jdhc bdccdgcyhdbc dchdgcyc hdcgd
+                    cuudgc ydcgyud
+                  </h1>
+                </div>
               </Modal.Body>
             </Modal>
             <center>
@@ -60,6 +64,7 @@ export const MyProject = ({ className, cls, projectPreview, ...props }) => {
           <center>
             {" "}
             <h4>{props.projectName}</h4>
+            <br />
             <h6 style={{ marginTop: "30px" }}>Built with</h6>
             <ul
               className="list-unstyled list-inline"

@@ -34,9 +34,6 @@
   h4 {
     color: $light;
     font-family: exospace;
-    @media screen and (min-width: 620px) {
-      margin-bottom: 50px !important;
-    }
   }
   i {
     float: right;
@@ -151,9 +148,6 @@
   height: fit-content;
   padding: 20px 40px;
   transition: 0.5s ease;
-  @media screen and (max-width: 620px) {
-    margin-left: 30px;
-  }
   &:hover {
     .ext-link {
       display: block;
@@ -273,7 +267,6 @@
   height: 200%;
   background-repeat: no-repeat !important;
   background-size: cover;
-
   @media screen and (max-width: 620px) {
     background-image: url("../../assets/wellspringPreview.png") !important;
     height: 1500px;

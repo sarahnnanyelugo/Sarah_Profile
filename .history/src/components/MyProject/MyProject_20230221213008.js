@@ -60,6 +60,7 @@ export const MyProject = ({ className, cls, projectPreview, ...props }) => {
           <center>
             {" "}
             <h4>{props.projectName}</h4>
+            <br />
             <h6 style={{ marginTop: "30px" }}>Built with</h6>
             <ul
               className="list-unstyled list-inline"

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
-export const MyProject = ({ className, cls, projectPreview, ...props }) => {
+export const MyProject = ({ className, cls, ...props }) => {
   const values = [true];
   const [fullscreen, setFullscreen] = useState(true);
   const [show, setShow] = useState(false);
@@ -29,15 +29,13 @@ export const MyProject = ({ className, cls, projectPreview, ...props }) => {
             >
               <Modal.Header closeButton> </Modal.Header>
               <Modal.Body>
-                {" "}
-                {/* <img
+                {/* {" "}
+                <img
                   className="col-md-12 col-12 "
                   src={props.fullScreen}
                   alt="preview"
                   width="100%"
                 /> */}
-                <div className={`col-md-12 ${projectPreview}`}></div>
-                {/* <div className="col-md-12 mobile-switch"></div> */}
               </Modal.Body>
             </Modal>
             <center>
@@ -60,6 +58,7 @@ export const MyProject = ({ className, cls, projectPreview, ...props }) => {
           <center>
             {" "}
             <h4>{props.projectName}</h4>
+            <br />
             <h6 style={{ marginTop: "30px" }}>Built with</h6>
             <ul
               className="list-unstyled list-inline"

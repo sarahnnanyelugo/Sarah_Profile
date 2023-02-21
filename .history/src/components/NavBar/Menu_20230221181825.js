@@ -28,7 +28,7 @@ export const Menu = () => {
   return (
     <>
       <Button variant="" onClick={handleShow}>
-        Projects
+        Work
       </Button>
 
       <Offcanvas show={show} onHide={handleClose}>
@@ -58,7 +58,6 @@ export const Menu = () => {
                 FW2="Html"
                 FW3="SASS"
                 FW4="React Carbon Design System"
-                projectPreview=" mobile-switch"
               />
               <MyProject
                 className="wellspring "
@@ -73,7 +72,6 @@ export const Menu = () => {
                 FW2="Html"
                 FW3="SASS"
                 FW4="Bootstrap"
-                projectPreview="wellspringPreview"
               />
               <MyProject
                 className="clairemont "
@@ -87,11 +85,10 @@ export const Menu = () => {
                 FW1="HTML"
                 FW2="CSS"
                 FW3="Bootstrap"
-                projectPreview="clairemontPreview"
               />
 
               <MyProject
-                className="maryland"
+                // className="maryland"
                 projectName="Maryland College"
                 cls="link-alteration4"
                 projectUrl={"https://maryland-school.vercel.app/"}
@@ -103,7 +100,7 @@ export const Menu = () => {
                 FW2="Html"
                 FW3="CSS"
                 FW4="Bootstrap"
-                projectPreview=" maryland-mobile"
+                projectPreview="mobile-switch-preview"
               />
             </div>
             <div

@@ -273,12 +273,11 @@ body {
     font-family: essones-d-regular;
     line-height: 25px;
   }
-
   .dp-container {
     background: $seagreen;
     margin-top: 20px;
     border-radius: 5px;
-    height: fit-content;
+    height: 300px;
     @media screen and (max-width: 620px) {
       margin-bottom: 20px;
       padding: 10px;
@@ -528,10 +527,5 @@ h2 {
   color: $seagreen;
   &:hover {
     color: $seagreen;
-  }
-}
-.my-profile {
-  p {
-    text-align: justify;
   }
 }

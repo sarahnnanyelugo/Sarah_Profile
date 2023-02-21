@@ -83,8 +83,8 @@ export const Home = ({ active, children }) => {
       </div>
       <div className="col-md-12 ">
         <span style={{ height: "20px" }} id="about"></span>
-        <div className="col-md-12 about-me my-profile">
-          <div className="col-md-6 offset-md-2 ">
+        <div className="col-md-12 about-me ">
+          <div className="col-md-6 offset-md-2 my-profile">
             <div className="col-md-12 col-12">
               <div style={{ display: "flex" }}>
                 <h4>

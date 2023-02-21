@@ -83,7 +83,7 @@ export const Home = ({ active, children }) => {
       </div>
       <div className="col-md-12 ">
         <span style={{ height: "20px" }} id="about"></span>
-        <div className="col-md-12 about-me my-profile">
+        <div className="col-md-12 about-me ">
           <div className="col-md-6 offset-md-2 ">
             <div className="col-md-12 col-12">
               <div style={{ display: "flex" }}>
@@ -104,14 +104,14 @@ export const Home = ({ active, children }) => {
             </div>
             <div className="col-md-12 col-12 flexy">
               <p>
-                I am a graduate of English and Literary Studies turned Software
-                Developer. Having left school in 2015, I had delved into series
-                of jobs ranging from teaching to office administration. I am
-                sure at this point, you are probably wondering how I ended up as
-                a Software Developer with no prior background in that dimension.
-                Well, most people see a career path as something you pick once
-                and spend the rest of your working years excelling in that
-                field. I am one of those who see career choices as a rather
+                I am a graduate of English turned Software Developer. Nsukka. I
+                graduated in the year 2015 and ever sice, I had delved into
+                series of jobs ranging from teaching to office administration. I
+                am sure at this point, you are probably wondering how I ended up
+                as a Software Developer with no prior background in that
+                dimension. Well, most people see a career path as something you
+                pick once and spend the rest of your working years excelling in
+                that field. I am one of those who see career choices as a rather
                 progressive decision, I believe that as humans, we have enough
                 creativity and ability to do much more than we limit ourselves
                 to.

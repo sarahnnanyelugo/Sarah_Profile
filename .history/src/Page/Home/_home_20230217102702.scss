@@ -272,8 +272,8 @@ body {
     color: $light;
     font-family: essones-d-regular;
     line-height: 25px;
+    text-align: justify;
   }
-
   .dp-container {
     background: $seagreen;
     margin-top: 20px;
@@ -528,10 +528,5 @@ h2 {
   color: $seagreen;
   &:hover {
     color: $seagreen;
-  }
-}
-.my-profile {
-  p {
-    text-align: justify;
   }
 }

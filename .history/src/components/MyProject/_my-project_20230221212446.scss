@@ -34,9 +34,6 @@
   h4 {
     color: $light;
     font-family: exospace;
-    @media screen and (min-width: 620px) {
-      margin-bottom: 50px !important;
-    }
   }
   i {
     float: right;
@@ -72,25 +69,14 @@
 }
 .wellspring {
   background-image: url("../../assets/well.png");
-  background-position: 0 0 !important;
-  @media screen and (max-width: 620px) {
-    background-image: url("../../assets/wellspringPreview.png") !important;
-    background-position: 0 0 !important;
-    background-repeat: no-repeat !important;
-  }
+
   &:hover {
     background: #204391;
     transition: 0.5s ease;
   }
 }
 .clairemont {
-  background-position: 0 0 !important;
   background-image: url("../../assets/claire.png");
-  @media screen and (max-width: 620px) {
-    background-image: url("../../assets/clairemontPreview.png") !important;
-    background-position: 0 0 !important;
-    background-repeat: no-repeat !important;
-  }
   &:hover {
     background: #2b3363;
     transition: 0.5s ease;
@@ -98,12 +84,6 @@
 }
 .maryland {
   background-image: url("../../assets/maryland.png");
-  background-position: 0 0 !important;
-  @media screen and (max-width: 620px) {
-    background-image: url("../../assets/maryland-mobile.png") !important;
-    background-position: 0 0 !important;
-    background-repeat: no-repeat !important;
-  }
   &:hover {
     background: #50a045;
     transition: 0.5s ease;
@@ -111,12 +91,10 @@
 }
 .switchapp {
   transition: 1s ease;
-  background-position: 0 0 !important;
+
   background-image: url("../../assets/switchapp.png");
   @media screen and (max-width: 620px) {
     background-image: url("../../assets/mobile-switch.png");
-    background-position: 0 0 !important;
-    background-repeat: no-repeat !important;
   }
   &:hover {
     // background-image: url("../../assets/switchapp2.png");
@@ -151,9 +129,6 @@
   height: fit-content;
   padding: 20px 40px;
   transition: 0.5s ease;
-  @media screen and (max-width: 620px) {
-    margin-left: 30px;
-  }
   &:hover {
     .ext-link {
       display: block;
@@ -249,44 +224,9 @@
   }
 }
 .mobile-switch {
-  height: 200%;
+  height: 100%;
   background-image: url("../../assets/switchapp.png") !important;
   background-repeat: no-repeat !important;
   background-size: cover;
-  @media screen and (max-width: 620px) {
-    background-image: url("../../assets/mobile-switch.png") !important;
-    height: 1500px;
-  }
-}
-.maryland-mobile {
-  background-image: url("../../assets/maryland.png");
-  height: 200%;
-  background-repeat: no-repeat !important;
-  background-size: cover;
-  @media screen and (max-width: 620px) {
-    background-image: url("../../assets/maryland-mobile.png") !important;
-    height: 1500px;
-  }
-}
-.wellspringPreview {
-  background-image: url("../../assets/well.png");
-  height: 200%;
-  background-repeat: no-repeat !important;
-  background-size: cover;
-
-  @media screen and (max-width: 620px) {
-    background-image: url("../../assets/wellspringPreview.png") !important;
-    height: 1500px;
-  }
-}
-.clairemontPreview {
-  background-image: url("../../assets/claire.png");
-
-  height: 200%;
-  background-repeat: no-repeat !important;
-  background-size: cover;
-  @media screen and (max-width: 620px) {
-    background-image: url("../../assets/clairemontPreview.png") !important;
-    height: 1500px;
-  }
+  background-position: center center;
 }
