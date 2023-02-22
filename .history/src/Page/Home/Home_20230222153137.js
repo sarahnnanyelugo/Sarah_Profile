@@ -365,6 +365,9 @@ koha-16a04b147"
         </div>
       </div>
       <AppModal />
+      <div className="trials col-md-2">
+        <img className="col-md-12 col-8" src={Dp} alt="Scholar" width="100%" />
+      </div>
     </>
   );
 };

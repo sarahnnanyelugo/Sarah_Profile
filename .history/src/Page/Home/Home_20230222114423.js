@@ -106,30 +106,30 @@ export const Home = ({ active, children }) => {
             <div className="col-md-12 col-12 flexy">
               <p>
                 My interest in web development started back in 2020 when I took
-                leave from paid employment to nurse my first pregnancy. As a
-                graduate of English and Literature I didn't have any prior
-                knowledge of Software Development nor any thing in that angle,
-                but It was a skill I longed to acquire. True, most people see a
+                leave from paid employment to nurse my first pregnancy and
+                decided to acquire a skill on the side. As a graduate of English
+                and Literature I didn't have any prior knowledge of Software
+                Development nor any thing in that angle. Well, most people see a
                 career path as something you pick once and spend the rest of
                 your working years excelling in that field. I am one of those
                 who see career choices as a rather progressive decision, I
                 believe that as humans, we have enough creativity and ability to
                 do much more than we limit ourselves to. This was the school of
                 thought that birthed my career in software development. By the
-                end of 2020, I had learnt HTML, CSS, Javascript and frameworks
-                such as Bootstrap and jQuery. This story is a litle more
-                elabourate than this. Interested?{" "}
+                time I welcomed my baby, I had learnt HTML, CSS, Javascript and
+                frameworks such as Bootstrap and jQuery. This story is a litle
+                more elabourate than this. Interested?
+                <br />
                 <a
                   className="link-alteration"
                   href="https://www.linkedin.com/post/edit/6740319122741174272/"
                   target="_blank"
                 >
                   Continue from my linkedIn page
-                </a>
-                . It's a good read.
+                </a>{" "}
+                It's a good read.
               </p>
-              <div className="dp-container col-md-4 offset-md-1 col-10 ">
-                {" "}
+              <div className="col-md-4 dp-container offset-md-1 col-10">
                 <center>
                   {" "}
                   <img
@@ -181,6 +181,7 @@ export const Home = ({ active, children }) => {
             </ul> */}
             <ul className="list-unstyled" style={{ marginRight: "60px" }}>
               <li>HTML</li>
+              <br />
               <li>
                 CSS/SCSS
                 <ul>
@@ -308,11 +309,8 @@ koha-16a04b147"
               <p>
                 Thanks for stopping by, I’m currently looking to join a new team
                 of creative designers and developers. If you think we might be a
-                good fit for one another, give me a call{" "}
-                <a href="#" tel={"08160480691"}>
-                  🇳🇬{" "}
-                </a>
-                or send me an email 📧.
+                good fit for one another, give me a call 🇳🇬 or send me an email
+                📧.
               </p>
               <a
                 href="sarahnnanyelugo@gmail.com"
@@ -365,6 +363,15 @@ koha-16a04b147"
         </div>
       </div>
       <AppModal />
+      <div className="trials col-md-4">
+        <img
+          className="col-md-12 col-8"
+          src={Dp}
+          alt="Scholar"
+          width="100%"
+          style={{ color: "#4ECDC4" }}
+        />
+      </div>
     </>
   );
 };

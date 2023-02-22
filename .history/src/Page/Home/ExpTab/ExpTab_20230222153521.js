@@ -58,6 +58,10 @@ export const ExpTab = () => {
                     Design System
                   </li>{" "}
                   <li>
+                    Responsible for collating daily updates of team work flow
+                    and progress
+                  </li>{" "}
+                  <li>
                     Communicate with multi-disciplinary teams of engineers,
                     designers, producers, and clients on a daily basis
                   </li>{" "}

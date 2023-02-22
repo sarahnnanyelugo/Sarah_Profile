@@ -33,9 +33,11 @@ h6 {
   ol li {
     font-size: 16px;
     margin-top: 20px;
-    margin-left: 14px !important;
   }
   small {
     font-size: 12px !important;
+  }
+  ol li :after {
+    right: 9% !important;
   }
 }

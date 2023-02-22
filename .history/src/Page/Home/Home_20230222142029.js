@@ -128,8 +128,7 @@ export const Home = ({ active, children }) => {
                 </a>
                 . It's a good read.
               </p>
-              <div className="dp-container col-md-4 offset-md-1 col-10 ">
-                {" "}
+              <div className="col-md-4 dp-container offset-md-1 col-10">
                 <center>
                   {" "}
                   <img
@@ -308,11 +307,8 @@ koha-16a04b147"
               <p>
                 Thanks for stopping by, I’m currently looking to join a new team
                 of creative designers and developers. If you think we might be a
-                good fit for one another, give me a call{" "}
-                <a href="#" tel={"08160480691"}>
-                  🇳🇬{" "}
-                </a>
-                or send me an email 📧.
+                good fit for one another, give me a call 🇳🇬 or send me an email
+                📧.
               </p>
               <a
                 href="sarahnnanyelugo@gmail.com"
@@ -365,6 +361,15 @@ koha-16a04b147"
         </div>
       </div>
       <AppModal />
+      <div className="trials col-md-2">
+        <img
+          className="col-md-12 col-8"
+          src={Dp}
+          alt="Scholar"
+          width="100%"
+          style={{ color: "#4ECDC4" }}
+        />
+      </div>
     </>
   );
 };
