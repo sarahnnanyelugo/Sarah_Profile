@@ -217,10 +217,6 @@ export const Home = ({ active, children }) => {
             </ol>
           </div>
         </div>
-        {/* <center>
-          {" "}
-          <Menu />
-        </center> */}
         <span style={{ height: "20px" }} id="experience"></span>
         <div className="col-md-12 about-me">
           <div className="col-md-6 offset-md-3">
@@ -238,12 +234,9 @@ export const Home = ({ active, children }) => {
                 <ExpTab />
               </div>
             </div>
+            <Menu />
           </div>
         </div>
-        <center>
-          {" "}
-          <Menu />
-        </center>
         <div
           className="col-md-12 about-me flexed"
           data-scroll

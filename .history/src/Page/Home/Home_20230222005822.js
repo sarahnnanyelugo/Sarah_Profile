@@ -10,7 +10,6 @@ import Dp from "../../assets/dp1.png";
 import { ExpTab } from "./ExpTab/ExpTab";
 import Icofont from "react-icofont";
 import ReactDOM from "react-dom";
-import { Menu } from "../../components/NavBar/Menu";
 
 const AnimationsForChaining = ["slideInFromRight"];
 
@@ -109,10 +108,12 @@ export const Home = ({ active, children }) => {
                 Developer. My interest in web development started back in 2020
                 when I took leave from paid job to nurse my first pregnancy and
                 also acquire a skill on the side. I didn't have any prior
-                knowledge of Software Development nor anithing in that angle. .
-                Well, most people see a career path as something you pick once
-                and spend the rest of your working years excelling in that
-                field. I am one of those who see career choices as a rather
+                knowledge of Software Development nor anithing in that angle. I
+                am sure at this point, you are probably wondering how I ended up
+                as a Software Developer with no prior background in that
+                dimension. Well, most people see a career path as something you
+                pick once and spend the rest of your working years excelling in
+                that field. I am one of those who see career choices as a rather
                 progressive decision, I believe that as humans, we have enough
                 creativity and ability to do much more than we limit ourselves
                 to.
@@ -217,10 +218,6 @@ export const Home = ({ active, children }) => {
             </ol>
           </div>
         </div>
-        {/* <center>
-          {" "}
-          <Menu />
-        </center> */}
         <span style={{ height: "20px" }} id="experience"></span>
         <div className="col-md-12 about-me">
           <div className="col-md-6 offset-md-3">
@@ -240,10 +237,6 @@ export const Home = ({ active, children }) => {
             </div>
           </div>
         </div>
-        <center>
-          {" "}
-          <Menu />
-        </center>
         <div
           className="col-md-12 about-me flexed"
           data-scroll

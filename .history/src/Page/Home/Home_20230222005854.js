@@ -10,7 +10,6 @@ import Dp from "../../assets/dp1.png";
 import { ExpTab } from "./ExpTab/ExpTab";
 import Icofont from "react-icofont";
 import ReactDOM from "react-dom";
-import { Menu } from "../../components/NavBar/Menu";
 
 const AnimationsForChaining = ["slideInFromRight"];
 
@@ -217,10 +216,6 @@ export const Home = ({ active, children }) => {
             </ol>
           </div>
         </div>
-        {/* <center>
-          {" "}
-          <Menu />
-        </center> */}
         <span style={{ height: "20px" }} id="experience"></span>
         <div className="col-md-12 about-me">
           <div className="col-md-6 offset-md-3">
@@ -240,10 +235,6 @@ export const Home = ({ active, children }) => {
             </div>
           </div>
         </div>
-        <center>
-          {" "}
-          <Menu />
-        </center>
         <div
           className="col-md-12 about-me flexed"
           data-scroll
