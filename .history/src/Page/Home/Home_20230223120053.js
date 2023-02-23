@@ -236,7 +236,7 @@ export const Home = ({ active, children }) => {
             </div>
           </div>
         </div>
-        <center style={{ color: "#fff" }}>
+        <center>
           {" "}
           My <Menu />
         </center>

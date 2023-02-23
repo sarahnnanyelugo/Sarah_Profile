@@ -80,7 +80,7 @@
   }
   &:hover {
     background: #204391;
-    transition: 0.9s ease !important;
+    transition: 0.5s ease;
   }
 }
 .clairemont {
@@ -122,6 +122,7 @@
     // background-image: url("../../assets/switchapp2.png");
     transition: 1s ease;
     background: #8ecbfe;
+    animation: dash 2s ease-out;
   }
 }
 .link-alteration1 {
@@ -288,5 +289,16 @@
   @media screen and (max-width: 620px) {
     background-image: url("../../assets/clairemontPreview.png") !important;
     height: 1500px;
+  }
+}
+@keyframes dash {
+  0% {
+    stroke-dasharray: 0;
+  }
+  50% {
+    stroke-dasharray: 150;
+  }
+  100% {
+    stroke-dasharray: 0;
   }
 }

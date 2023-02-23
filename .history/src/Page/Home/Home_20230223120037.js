@@ -236,9 +236,10 @@ export const Home = ({ active, children }) => {
             </div>
           </div>
         </div>
-        <center style={{ color: "#fff" }}>
+        <center>
           {" "}
-          My <Menu />
+          <p> My </p>
+          <Menu />
         </center>
         <div
           className="col-md-12 about-me flexed"

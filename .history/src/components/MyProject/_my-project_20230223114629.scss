@@ -80,7 +80,18 @@
   }
   &:hover {
     background: #204391;
-    transition: 0.9s ease !important;
+    transition: 0.5s ease;
+  }
+  @keyframes dash {
+    0% {
+      stroke-dasharray: 0;
+    }
+    50% {
+      stroke-dasharray: 150;
+    }
+    100% {
+      stroke-dasharray: 0;
+    }
   }
 }
 .clairemont {

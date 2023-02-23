@@ -117,7 +117,7 @@ export const Home = ({ active, children }) => {
                 do much more than we limit ourselves to. This was the school of
                 thought that birthed my career in software development. By the
                 end of 2020, I had learnt HTML, CSS, Javascript and frameworks
-                such as Bootstrap and jQuery. This story is a little more
+                such as Bootstrap and jQuery. This story is a litle more
                 elabourate than this. Interested?{" "}
                 <a
                   className="link-alteration"
@@ -236,9 +236,9 @@ export const Home = ({ active, children }) => {
             </div>
           </div>
         </div>
-        <center style={{ color: "#fff" }}>
+        <center>
           {" "}
-          My <Menu />
+          <Menu />
         </center>
         <div
           className="col-md-12 about-me flexed"
@@ -311,10 +311,10 @@ koha-16a04b147"
                 good fit for one another, give me a call{" "}
                 <a href="tel:08160480691">🇳🇬 </a>
                 or send me an email{" "}
-                <a href="mailto:sarahnnanyelugo@gmail.com">📧</a>
+                <a href="mailto:sarahnnanyelugo@gmail.com">📧</a>.
               </p>
               <a
-                href="mailto:sarahnnanyelugo@gmail.com"
+                href="sarahnnanyelugo@gmail.com"
                 target="_blank"
                 className="app-button"
               >
@@ -324,29 +324,28 @@ koha-16a04b147"
           </div>
           <div className="flip col-1 dn">
             {" "}
-            <a href="mailto:sarahnnanyelugo@gmail.com" target="_blank">
+            <a href="sarahnnanyelugo@gmail.com" target="_blank">
               sarahnnanyelugo@gmail.com
             </a>
             {/* <div className="vr1"></div> */}
           </div>
         </div>
-        {/* <div className=" col-1 dn2">
+        <div className=" col-1 dn2">
           {" "}
           <a href="mailto:sarahnnanyelugo@gmail.com" target="_blank">
             sarahnnanyelugo@gmail.com
           </a>
-        </div> */}
+        </div>
         <div className="quote col-md-8 offset-md-2">
           <center>
             {" "}
             <p>
               <em>
                 {" "}
-                Even in moments of obscurity and anonymity, strive for
+                Even in moments of obscurity and anonymity, strive however for
                 excellence without compromise, for when the opportunities you so
-                hoped for will come by, all you would have to present would be
-                your works, and by then, there may be little or no time for
-                editing.
+                desire will come by, all you would have to present would be your
+                works, and by then, there may be little or no time for editing.
               </em>
             </p>
             <p className=" offset-md-9 quoter">Sarah Nnanyelugo</p>

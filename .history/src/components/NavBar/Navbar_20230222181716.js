@@ -64,7 +64,7 @@ export const Navbar = () => {
         </Link>
 
         <div className="col-md-7">&nbsp;</div>
-        <div className="col-md-5">
+        <div className="col-md-4">
           <ol className="list-unstyled list-inline">
             <li className="list-inline-item web">
               <a href="#about">

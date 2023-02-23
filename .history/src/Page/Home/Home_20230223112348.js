@@ -117,7 +117,7 @@ export const Home = ({ active, children }) => {
                 do much more than we limit ourselves to. This was the school of
                 thought that birthed my career in software development. By the
                 end of 2020, I had learnt HTML, CSS, Javascript and frameworks
-                such as Bootstrap and jQuery. This story is a little more
+                such as Bootstrap and jQuery. This story is a litle more
                 elabourate than this. Interested?{" "}
                 <a
                   className="link-alteration"
@@ -236,9 +236,9 @@ export const Home = ({ active, children }) => {
             </div>
           </div>
         </div>
-        <center style={{ color: "#fff" }}>
+        <center>
           {" "}
-          My <Menu />
+          <Menu />
         </center>
         <div
           className="col-md-12 about-me flexed"
