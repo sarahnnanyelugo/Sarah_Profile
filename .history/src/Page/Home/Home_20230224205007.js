@@ -193,7 +193,7 @@ export const Home = ({ active, children }) => {
               <li>
                 {" "}
                 <li>
-                  REACT TESTING
+                  React Testing
                   <ul>
                     <li>Jest</li>
                     <li>React Testing Library</li>
@@ -203,12 +203,12 @@ export const Home = ({ active, children }) => {
             </ul>
             <ol className="list-unstyled">
               <li>
-                JAVASCRIPT
+                Javascript
                 <ul>
                   <li>ReactJs</li> <br />
                 </ul>
               </li>
-              <li>TYPESCRIPT</li> <br />
+              <li>Typescript</li> <br />
               <li>Adobe XD</li>
             </ol>
           </div>

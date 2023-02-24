@@ -183,17 +183,17 @@ export const Home = ({ active, children }) => {
               <li>HTML</li>
               <li>
                 CSS/SCSS
-                <ul>
+                <ol>
                   <li>Boostrap</li>
                   <li>React Carbon Design System</li>
                   <li>Chakra ui</li>
-                </ul>
+                </ol>
               </li>
               <br />
               <li>
                 {" "}
                 <li>
-                  REACT TESTING
+                  React Testing
                   <ul>
                     <li>Jest</li>
                     <li>React Testing Library</li>
@@ -201,14 +201,14 @@ export const Home = ({ active, children }) => {
                 </li>
               </li>
             </ul>
-            <ol className="list-unstyled">
+            <ol className="list-unstyled sec-list">
               <li>
-                JAVASCRIPT
+                Javascript
                 <ul>
                   <li>ReactJs</li> <br />
                 </ul>
               </li>
-              <li>TYPESCRIPT</li> <br />
+              <li>Typescript</li> <br />
               <li>Adobe XD</li>
             </ol>
           </div>
@@ -313,14 +313,18 @@ koha-16a04b147"
                 or send me an email{" "}
                 <a href="mailto:sarahnnanyelugo@gmail.com">📧</a>
               </p>
-              <a href="mailto:sarahnnanyelugo@gmail.com" className="app-button">
+              <a
+                href="mailto:sarahnnanyelugo@gmail.com"
+                target="_blank"
+                className="app-button"
+              >
                 Say Hello
               </a>
             </center>
           </div>
           <div className="flip col-1 dn">
             {" "}
-            <a href="mailto:sarahnnanyelugo@gmail.com">
+            <a href="mailto:sarahnnanyelugo@gmail.com" target="_blank">
               sarahnnanyelugo@gmail.com
             </a>
             {/* <div className="vr1"></div> */}

@@ -73,7 +73,7 @@ export const ExpTab = () => {
                   <h6>
                     Intern @{" "}
                     <a
-                      href="https://www.educare.school"
+                      href="https://educare.school"
                       target="_blank"
                       className="link-alteration"
                     >
