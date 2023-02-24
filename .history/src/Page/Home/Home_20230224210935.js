@@ -106,8 +106,8 @@ export const Home = ({ active, children }) => {
             <div className="col-md-12 col-12 flexy">
               <p>
                 My interest in web development started back in 2020 when I took
-                leave from paid employment to nurse my first pregnancy. I'm a
-                graduate of English/Literature who didn't know the first thing
+                leave from paid employment to nurse my first pregnancy. As a
+                graduate of English/Literature I didn't know the first thing
                 about Software Development, but It was a skill I longed to
                 acquire. It is true most people see a career path as something
                 you pick once and spend the rest of your working years excelling

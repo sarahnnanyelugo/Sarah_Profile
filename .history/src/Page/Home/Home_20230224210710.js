@@ -106,19 +106,19 @@ export const Home = ({ active, children }) => {
             <div className="col-md-12 col-12 flexy">
               <p>
                 My interest in web development started back in 2020 when I took
-                leave from paid employment to nurse my first pregnancy. I'm a
-                graduate of English/Literature who didn't know the first thing
-                about Software Development, but It was a skill I longed to
-                acquire. It is true most people see a career path as something
-                you pick once and spend the rest of your working years excelling
-                in that field. However, I am one of those who see career choices
-                as a rather progressive decision. I believe that as humans, we
-                have enough creativity and ability to do much more than we limit
-                ourselves to. This was the school of thought that birthed my
-                career in software development. By the end of 2020, I had learnt
-                HTML, CSS, Javascript and frameworks such as Bootstrap and
-                jQuery. This story is a little more elabourate than this.
-                Interested?{" "}
+                leave from paid employment to nurse my first pregnancy. As a
+                graduate of English and Literature I didn't nearly have any
+                prior knowledge of Software Development, but It was a skill I
+                longed to acquire. It is true most people see a career path as
+                something you pick once and spend the rest of your working years
+                excelling in that field. However, I am one of those who see
+                career choices as a rather progressive decision, I believe that
+                as humans, we have enough creativity and ability to do much more
+                than we limit ourselves to. This was the school of thought that
+                birthed my career in software development. By the end of 2020, I
+                had learnt HTML, CSS, Javascript and frameworks such as
+                Bootstrap and jQuery. This story is a little more elabourate
+                than this. Interested?{" "}
                 <a
                   className="link-alteration"
                   href="https://www.linkedin.com/post/edit/6740319122741174272/"

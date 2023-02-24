@@ -38,7 +38,7 @@ h6 {
   small {
     font-size: 12px !important;
   }
-  ol li:after {
-    margin-left: -14px !important;
+  ol li::after {
+    margin-right: 14px !important;
   }
 }
