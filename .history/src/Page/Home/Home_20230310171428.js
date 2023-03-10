@@ -223,24 +223,7 @@ export const Home = ({ active, children }) => {
           <Menu />
         </center> */}
         <span style={{ height: "20px" }} id="experience"></span>
-        <div className="col-md-12 about-me">
-          <div className="col-md-6 offset-md-3">
-            <div style={{ display: "flex" }}>
-              <h4>
-                <span>02.</span>Where I’ve Worked
-              </h4>
-              <div className="col-md-6">
-                <hr />
-              </div>
-            </div>
 
-            <div className="col-md-12 expe-container">
-              <div>
-                <ExpTab />
-              </div>
-            </div>
-          </div>
-        </div>
         <center style={{ color: "#fff" }}>
           {" "}
           <div id="projects-holder">
@@ -248,7 +231,11 @@ export const Home = ({ active, children }) => {
             My <Menu />
           </div>
         </center>
-        <div className="col-md-12 about-me flexed">
+        <div
+          className="col-md-12 about-me flexed"
+          data-scroll
+          data-scroll-speed="3"
+        >
           <span style={{ height: "50px" }} id="contact"></span>
           <div className="socials col-1">
             <ul className="list-unstyled">

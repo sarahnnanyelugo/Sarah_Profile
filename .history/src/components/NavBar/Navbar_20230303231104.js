@@ -12,7 +12,11 @@ export const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [scrollDirection, setScrollDirection] = useState(0);
   const [showActive, setShowActive] = useState(false);
-
+  const [isActive, setActive] = useState("false");
+  const HandleToggle = () => {
+    setActive(isActive);
+    console.log("clicking !");
+  };
   const handleChange = (e) => {
     let isChecked = e.target.checked;
     // do whatever you want with isChecked value
@@ -59,16 +63,13 @@ export const Navbar = () => {
           scrollPosition >= 400 && scrollDirection < 0 ? "hide" : ""
         }`}
       >
-        <div className="logo-holder">
+        <Link to={"/"}>
           {" "}
-          <Link to={"/"}>
-            {" "}
-            <img className="col-md- col- logo" src={Logo} alt="Scholar" />
-          </Link>
-        </div>
+          <img className="col-md-1 col-2 logo" src={Logo} alt="Scholar" />
+        </Link>
 
-        {/* <div className="col-md-7">&nbsp;</div> */}
-        <div className="col-md-">
+        <div className="col-md-7">&nbsp;</div>
+        <div className="col-md-5">
           <ol className="list-unstyled list-inline">
             <li className="list-inline-item web">
               <a href="#about">
@@ -76,7 +77,11 @@ export const Navbar = () => {
               </a>
             </li>{" "}
             <li className="list-inline-item web">
-              <a href="#experience">
+              <a
+                href="#experience"
+                onClick={HandleToggle}
+                className={` ${isActive ? "active" : ""}`}
+              >
                 <span>02.</span>Experience
               </a>
             </li>
@@ -99,6 +104,12 @@ export const Navbar = () => {
                 </a>
               </button>
             </li>{" "}
+            <button
+              className={`list-inline-item web ${isActive ? "active" : ""}`}
+              onClick={HandleToggle}
+            >
+              click
+            </button>
             <div className="mobile-menu col-md-12 ">
               {" "}
               <nav>

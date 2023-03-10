@@ -10,7 +10,6 @@ $nav-links: about, products, media, contact us;
   color: $seagreen;
   width: 100%;
   position: fixed !important;
-
   @media screen and (max-width: 620px) {
     margin-top: -50px;
     padding: 0;
@@ -20,20 +19,16 @@ $nav-links: about, products, media, contact us;
     top: -80px;
     transform: translateY(-100%);
   }
-  .logo-holder {
-    flex-grow: 1 !important;
-    .logo {
-      height: 50px;
-      width: 50px;
-      margin-top: 5px;
-
-      @media screen and (max-width: 620px) {
-        margin-top: 10px;
-        margin-left: 10px;
-      }
+  .logo {
+    height: 50px;
+    width: 150px;
+    margin-top: 5px;
+    flex-grow: 1;
+    @media screen and (max-width: 620px) {
+      margin-top: 10px;
+      margin-left: 10px;
     }
   }
-
   ol li a {
     color: $light !important;
     text-decoration: none;

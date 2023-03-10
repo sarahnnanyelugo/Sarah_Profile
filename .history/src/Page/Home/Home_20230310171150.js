@@ -77,10 +77,6 @@ export const Home = ({ active, children }) => {
             </p>
           </MovingComponent>
         </div>
-
-        <div className="col-md-5  offset-md-1 intro-container fley">
-          <Profile />
-        </div>
       </div>
       <div className="col-md-12 ">
         <span style={{ height: "20px" }} id="about"></span>
@@ -248,7 +244,11 @@ export const Home = ({ active, children }) => {
             My <Menu />
           </div>
         </center>
-        <div className="col-md-12 about-me flexed">
+        <div
+          className="col-md-12 about-me flexed"
+          data-scroll
+          data-scroll-speed="3"
+        >
           <span style={{ height: "50px" }} id="contact"></span>
           <div className="socials col-1">
             <ul className="list-unstyled">

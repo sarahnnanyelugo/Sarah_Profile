@@ -21,12 +21,11 @@ $nav-links: about, products, media, contact us;
     transform: translateY(-100%);
   }
   .logo-holder {
-    flex-grow: 1 !important;
     .logo {
       height: 50px;
       width: 50px;
       margin-top: 5px;
-
+      flex-grow: 1 !important;
       @media screen and (max-width: 620px) {
         margin-top: 10px;
         margin-left: 10px;

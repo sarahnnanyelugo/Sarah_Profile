@@ -59,13 +59,10 @@ export const Navbar = () => {
           scrollPosition >= 400 && scrollDirection < 0 ? "hide" : ""
         }`}
       >
-        <div className="logo-holder">
+        <Link to={"/"}>
           {" "}
-          <Link to={"/"}>
-            {" "}
-            <img className="col-md- col- logo" src={Logo} alt="Scholar" />
-          </Link>
-        </div>
+          <img className="col-md-1 col-2 logo" src={Logo} alt="Scholar" />
+        </Link>
 
         {/* <div className="col-md-7">&nbsp;</div> */}
         <div className="col-md-">

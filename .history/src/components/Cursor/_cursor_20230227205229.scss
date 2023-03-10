@@ -3,10 +3,10 @@
 
 .ring {
   position: fixed;
-  top: 0;
+  top: 0 !important;
   left: 0;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   // background-color: rgba(130, 217, 130, 0.4);
   border: solid 1px $seagreen;
   border-radius: 100%;

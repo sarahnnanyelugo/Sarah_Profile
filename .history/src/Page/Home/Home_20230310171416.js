@@ -200,22 +200,6 @@ export const Home = ({ active, children }) => {
                 </li>
               </li>
             </ul>
-            <ol className="list-unstyled">
-              <li>
-                JAVASCRIPT
-                <ul>
-                  <li>ReactJs</li> <br />
-                </ul>
-              </li>
-              <li>TYPESCRIPT</li> <br />
-              <li>
-                UX UI
-                <ul>
-                  <li>Adobe XD</li>
-                  <li>Figma</li>
-                </ul>
-              </li>
-            </ol>
           </div>
         </div>
         {/* <center>
@@ -248,7 +232,11 @@ export const Home = ({ active, children }) => {
             My <Menu />
           </div>
         </center>
-        <div className="col-md-12 about-me flexed">
+        <div
+          className="col-md-12 about-me flexed"
+          data-scroll
+          data-scroll-speed="3"
+        >
           <span style={{ height: "50px" }} id="contact"></span>
           <div className="socials col-1">
             <ul className="list-unstyled">

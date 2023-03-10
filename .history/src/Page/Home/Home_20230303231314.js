@@ -241,14 +241,15 @@ export const Home = ({ active, children }) => {
             </div>
           </div>
         </div>
-        <center style={{ color: "#fff" }}>
+        <center style={{ color: "#fff", border: "solid 2px red" }}>
           {" "}
-          <div id="projects-holder">
-            {" "}
-            My <Menu />
-          </div>
+          My <Menu />
         </center>
-        <div className="col-md-12 about-me flexed">
+        <div
+          className="col-md-12 about-me flexed"
+          data-scroll
+          data-scroll-speed="3"
+        >
           <span style={{ height: "50px" }} id="contact"></span>
           <div className="socials col-1">
             <ul className="list-unstyled">

@@ -251,50 +251,6 @@ export const Home = ({ active, children }) => {
         <div className="col-md-12 about-me flexed">
           <span style={{ height: "50px" }} id="contact"></span>
           <div className="socials col-1">
-            <ul className="list-unstyled">
-              <li>
-                <a
-                  href="https://github.com/sarahnnanyelugo"
-                  className="socials"
-                  target="_blank"
-                >
-                  <i class="icofont-github"></i>
-                </a>
-              </li>{" "}
-              <li>
-                <a
-                  href="https://web.facebook.com/ukoha.sarah/?_rdc=1&_rdr"
-                  className="socials"
-                  target="_blank"
-                >
-                  <i class="icofont-facebook"></i>
-                </a>
-              </li>{" "}
-              <li>
-                <a href="#" className="socials" target="_blank">
-                  <i class="icofont-instagram"></i>
-                </a>
-              </li>{" "}
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/sarah-u
-koha-16a04b147"
-                  className="socials"
-                  target="_blank"
-                >
-                  <i class="icofont-linkedin"></i>
-                </a>
-              </li>{" "}
-              <li>
-                <a
-                  href="https://vercel.com/dashboard"
-                  className="socials"
-                  target="_blank"
-                >
-                  <i class="icofont-caret-up"></i>{" "}
-                </a>
-              </li>
-            </ul>
             <div className="vr"></div>
           </div>
           <div className="col-md-6 offset-md-2 contact col-10">

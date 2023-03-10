@@ -59,13 +59,10 @@ export const Navbar = () => {
           scrollPosition >= 400 && scrollDirection < 0 ? "hide" : ""
         }`}
       >
-        <div className="logo-holder">
+        <Link to={"/"}>
           {" "}
-          <Link to={"/"}>
-            {" "}
-            <img className="col-md- col- logo" src={Logo} alt="Scholar" />
-          </Link>
-        </div>
+          <img className="col-md- col- logo" src={Logo} alt="Scholar" />
+        </Link>
 
         {/* <div className="col-md-7">&nbsp;</div> */}
         <div className="col-md-">
@@ -99,7 +96,7 @@ export const Navbar = () => {
                 </a>
               </button>
             </li>{" "}
-            <div className="mobile-menu col-md-12 ">
+            {/* <div className="mobile-menu col-md-12 ">
               {" "}
               <nav>
                 <input
@@ -149,7 +146,7 @@ export const Navbar = () => {
                   </li>
                 </ul>
               </nav>
-            </div>
+            </div> */}
           </ol>
         </div>
       </div>

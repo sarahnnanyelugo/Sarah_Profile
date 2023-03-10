@@ -49,7 +49,7 @@ export const Home = ({ active, children }) => {
             Hi There! I'm Sarah
           </AnimatedText>
         </div> */}
-        <div className="col-md-6 intro-container" id="src">
+        {/* <div className="col-md-6 intro-container" id="src">
           <MovingComponent
             onAnimationEnd={handleChainAnimation}
             type={animationType}
@@ -76,7 +76,7 @@ export const Home = ({ active, children }) => {
               setting to complete projects on schedule and within budget.
             </p>
           </MovingComponent>
-        </div>
+        </div> */}
 
         <div className="col-md-5  offset-md-1 intro-container fley">
           <Profile />
@@ -248,7 +248,11 @@ export const Home = ({ active, children }) => {
             My <Menu />
           </div>
         </center>
-        <div className="col-md-12 about-me flexed">
+        <div
+          className="col-md-12 about-me flexed"
+          data-scroll
+          data-scroll-speed="3"
+        >
           <span style={{ height: "50px" }} id="contact"></span>
           <div className="socials col-1">
             <ul className="list-unstyled">

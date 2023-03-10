@@ -178,28 +178,7 @@ export const Home = ({ active, children }) => {
 
               <li> React Testing</li>
             </ul> */}
-            <ul className="list-unstyled" style={{ marginRight: "60px" }}>
-              <li>HTML</li>
-              <li>
-                CSS/SCSS
-                <ul>
-                  <li>Boostrap</li>
-                  <li>React Carbon Design System</li>
-                  <li>Chakra ui</li>
-                </ul>
-              </li>
-              <br />
-              <li>
-                {" "}
-                <li>
-                  REACT TESTING
-                  <ul>
-                    <li>Jest</li>
-                    <li>React Testing Library</li>
-                  </ul>
-                </li>
-              </li>
-            </ul>
+
             <ol className="list-unstyled">
               <li>
                 JAVASCRIPT
@@ -248,7 +227,11 @@ export const Home = ({ active, children }) => {
             My <Menu />
           </div>
         </center>
-        <div className="col-md-12 about-me flexed">
+        <div
+          className="col-md-12 about-me flexed"
+          data-scroll
+          data-scroll-speed="3"
+        >
           <span style={{ height: "50px" }} id="contact"></span>
           <div className="socials col-1">
             <ul className="list-unstyled">
