@@ -137,25 +137,25 @@ export const Menu = () => {
                 <div className="col-md-11">
                   {" "}
                   <OtherProjects
-                    projectName="educare official website"
-                    projectDescription="A modern website that captures every aspect of educare; a school and business management software."
+                    projectName="Educare official website"
+                    projectDescription="A single paged application built with the intention of keeping a list of my daily goals"
                     FW1="Reactjs"
-                    FW3="SCSS"
+                    FW2="Html"
+                    FW3="CSS"
                     FW4="Bootstrap"
-                    FW2="Typescript"
-                    linkUrl={"https://www.educare.school/"}
+                    FW5="Typescript"
                   />
                 </div>
                 <div className="col-md-11">
                   {" "}
                   <OtherProjects
-                    projectName="Physics Department, University of Portharcourt"
-                    projectDescription="This is the first and official website I built for the Physics Department, University of Portharcourt, Nigeria"
+                    projectName="Lagoon Schools"
+                    projectDescription="Lagoon Schools is an all-girls secondary school situated in the heart of Lagos State Nigeria. This is their official website and I hope you like it"
                     FW1="Reactjs"
                     FW2="Html"
-                    FW3="SCSS"
+                    FW3="CSS"
                     FW4="Bootstrap"
-                    linkUrl={"https://uniport-physics.vercel.app/"}
+                    linkUrl={"https://lagoon-alpha.vercel.app/"}
                   />
                 </div>
               </div>

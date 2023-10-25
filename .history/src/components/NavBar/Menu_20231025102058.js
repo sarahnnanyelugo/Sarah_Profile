@@ -140,7 +140,7 @@ export const Menu = () => {
                     projectName="educare official website"
                     projectDescription="A modern website that captures every aspect of educare; a school and business management software."
                     FW1="Reactjs"
-                    FW3="SCSS"
+                    FW3="CSS"
                     FW4="Bootstrap"
                     FW2="Typescript"
                     linkUrl={"https://www.educare.school/"}
@@ -153,9 +153,9 @@ export const Menu = () => {
                     projectDescription="This is the first and official website I built for the Physics Department, University of Portharcourt, Nigeria"
                     FW1="Reactjs"
                     FW2="Html"
-                    FW3="SCSS"
+                    FW3="CSS"
                     FW4="Bootstrap"
-                    linkUrl={"https://uniport-physics.vercel.app/"}
+                    linkUrl={"https://lagoon-alpha.vercel.app/"}
                   />
                 </div>
               </div>

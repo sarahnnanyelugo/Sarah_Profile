@@ -155,7 +155,7 @@ export const Menu = () => {
                     FW2="Html"
                     FW3="SCSS"
                     FW4="Bootstrap"
-                    linkUrl={"https://uniport-physics.vercel.app/"}
+                    linkUrl={"https://lagoon-alpha.vercel.app/"}
                   />
                 </div>
               </div>
